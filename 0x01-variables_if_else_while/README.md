@@ -1,1 +1,1 @@
-Variables, if, else, while statements programming
+Variables,if,else and while statements
