@@ -12,12 +12,7 @@
  */
 int main(void)
 {
-	int n;
-
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	char c;
-	for (c = 'a';c <= 'z';c++)
+	for (char c = 'a';c <= 'z';c++)
 		putchar(c);
 	putchar('\n');
 	return (0);
