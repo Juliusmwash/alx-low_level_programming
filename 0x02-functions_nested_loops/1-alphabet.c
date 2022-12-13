@@ -1,16 +1,11 @@
-#include "main.h"
-
+#include <unistd.h>
 /**
- * main - Entry
+ * _putchar - writes the character c to stdout 
+ * @c: The character to print
  *
- * Return: Always 0 (Success)
+ * Return: Always 0
  */
-
-void print_alphabet(void)
+int _putchar(char c)
 {
-	char c;
-
-	for (c = 'a'; c < 'z'; c++)
-		_putchar(c);
-	_putchar('\n');
+	return (write(1, &c, 1));
 }
