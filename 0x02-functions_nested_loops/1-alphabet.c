@@ -5,7 +5,13 @@
  *
  * Return: Always 0
  */
-int _putchar(char c)
+void print_alphabet(void)
 {
-	return (write(1, &c, 1));
+	int c;
+
+	for (c = 'a'; c <= 'z'; c++)
+	{
+		_putchar(c);
+	}
+	_putchar('\n');
 }
