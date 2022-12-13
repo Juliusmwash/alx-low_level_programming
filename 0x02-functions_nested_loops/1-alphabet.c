@@ -1,4 +1,3 @@
-#include <unistd.h>
 #include "main.h"
 
 /**
@@ -7,8 +6,11 @@
  * Return: Always 0 (Success)
  */
 
-int main(void)
+void print_alphabet()
 {
-	print_alphabet();
-	return (0);
+	char c;
+
+	for (c = 'a'; c < 'z'; c++)
+		_putchar(c);
+	_putchar('\n');
 }
