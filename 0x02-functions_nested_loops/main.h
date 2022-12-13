@@ -1,2 +1,1 @@
-int _putchar(char);
-void print();
+int print(char);
