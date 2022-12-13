@@ -1,9 +1,8 @@
 #include <unistd.h>
 #include "main.h"
 
-/**
- * _putchar - writes the character c to stdout 
- * @c: The character to print
+/** 
+ * print_alphabet - print alphabet lowercase
  *
  * Return: Always 0
  */
