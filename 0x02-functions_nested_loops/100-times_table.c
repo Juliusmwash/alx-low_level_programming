@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * times_table - print 9 times table
+ * print_times_table - print 9 times table
  * @n: number of times to print
  *
  * Return: Always 0
@@ -24,7 +24,6 @@ void print_times_table(int n)
 			if (c <= 9)
 			{
 				_putchar(' ');
-				_putchar(' ');
 			}
 			else
 			{
@@ -32,8 +31,7 @@ void print_times_table(int n)
 			}
 			_putchar(c % 10 + '0');
 		}
-		_putchar('\n');
-		
+		_putchar('\n');	
 	}
 	}
 }
