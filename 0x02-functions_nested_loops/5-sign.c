@@ -2,7 +2,7 @@
 /**
  * print_sign - prints sign depending on the numbers
  *
- * @c: number used to determine the sign to print
+ * @n: number used to determine the sign to print
  *
  * Return: Always 0
  */
