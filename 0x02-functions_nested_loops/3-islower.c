@@ -1,5 +1,4 @@
-#include <ctype>
-
+#include <stdlib.h>
 /**	
  * _islower - checks whether a letter is a lower case
  * letter or not
