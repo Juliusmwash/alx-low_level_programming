@@ -17,5 +17,6 @@ int _abs(int c)
 	}
 	else
 	{
+		return (0);
 	}
 }
