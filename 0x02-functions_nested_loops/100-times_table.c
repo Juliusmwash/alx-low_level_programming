@@ -18,10 +18,12 @@ void print_times_table(int n)
 		{
 			_putchar(',');
 			_putchar(' ');
+			_putchar(' ');
 			c = b * a;
 
 			if (c <= 9)
 			{
+				_putchar(' ');
 				_putchar(' ');
 			}
 			else
