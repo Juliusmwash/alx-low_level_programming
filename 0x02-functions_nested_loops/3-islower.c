@@ -1,5 +1,5 @@
 #include "main.h"
-/**	
+/**
  * _islower - checks whether a letter is a lower case or not
  * @c:letter for test
  *
