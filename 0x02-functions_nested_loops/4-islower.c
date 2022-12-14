@@ -1,16 +1,14 @@
 #include <ctype>
 
 /**	
- * _isalpha - checks whether a letter is a lower case or 
- * not
+ * _islower - checks whether a letter is a lower case
+ * letter or not
  *
  * Return: Always 0
  */
-int _isalpha(int c)
+int _islower(int c)
 {
-	char a;
-
-	if (islower(a) > 0)
+	if (islower(c) > 0)
 		return (1);
 	else
 		return (0);
