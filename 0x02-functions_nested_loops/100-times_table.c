@@ -18,20 +18,27 @@ void print_times_table(int n)
 		{
 			_putchar(',');
 			_putchar(' ');
-			_putchar(' ');
 			c = b * a;
 
 			if (c <= 9)
 			{
 				_putchar(' ');
+				_putchar(' ');
+			}
+			else if (c >= 99)
+			{
+				_putchar(' ');
+				_putchar(c / 10 + '0');
 			}
 			else
 			{
+				_putchar(c / 100 + '0');
+				c = c % 100;
 				_putchar(c / 10 + '0');
 			}
 			_putchar(c % 10 + '0');
 		}
-		_putchar('\n');	
+		_putchar('\n');
 	}
 	}
 }
