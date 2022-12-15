@@ -1,10 +1,10 @@
 #include <unistd.h>
 #include "main.h"
-/*
+/**
  * _isupper - checks for upper case characters
  * @c: character or check
  *
- * Return 0
+ * Return: Always 0
  */
 int _isupper(int c)
 {
