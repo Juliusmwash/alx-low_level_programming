@@ -1,13 +1,14 @@
 #include "main.h"
 /**
  * print_line - draws a straight line in the terminal
+ * @n: length of the line
  *
  * Return: Always 0
  */
 void print_line(int n)
 {
   int a;
-  
+
   if (n > 0)
   {
     for (a = 0; a < n; a++)
