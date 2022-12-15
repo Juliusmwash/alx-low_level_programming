@@ -19,13 +19,12 @@ int main(void)
 		b = c;
 		if (d != 49)
 		{
-			printf(',');
+			putchar(',');
 		}
 		else
 		{
-			printf('\n');
+			putchar('\n');
 		}
 	}
 	return (0);
 }
-
