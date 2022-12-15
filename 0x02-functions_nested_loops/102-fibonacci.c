@@ -17,9 +17,10 @@ int main(void)
 		printf("%d", c);
 		a = b;
 		b = c;
-		if (d != 49)
+		if (d != 50);
 		{
 			putchar(',');
+			putchar(' ');
 		}
 		else
 		{
