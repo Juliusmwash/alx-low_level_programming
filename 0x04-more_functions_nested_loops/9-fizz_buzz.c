@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	int a;
+	int a = 1;
 
 	while (a <= 100)
 	{
@@ -19,7 +19,7 @@ int main(void)
 		else if (a % 5 == 0)
 			printf("Buzz ");
 		else
-			printf("%d ");
+			printf("%d ", a);
 		}
 		else
 		{
@@ -30,7 +30,7 @@ int main(void)
 		else if (a % 5 == 0)
 			printf("Buzz");
 		else
-			printf("%d");
+			printf("%d", a);
 		}
 		a++;
 	}
