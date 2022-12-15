@@ -6,18 +6,18 @@
  */
 int main(void)
 {
-	int a = 0;
-	int b = 1;
-	int c = 0;
+	long int a = 0;
+	long int b = 1;
+	long int c = 0;
 	int d;
 
-	for (d = 0; d < 50; a++)
+	for (d = 0; d < 50; d++)
 	{
 		c = a + b;
 		printf("%d", c);
 		a = b;
 		b = c;
-		if (d != 50)
+		if (d != 49)
 		{
 			putchar(',');
 			putchar(' ');
