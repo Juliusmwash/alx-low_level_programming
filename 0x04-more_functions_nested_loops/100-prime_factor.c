@@ -31,6 +31,7 @@ int main(void)
 		{
 			f = b;
 			printf("%lu", f);
+			printf("\n");
 			break;
 		}
 	}
