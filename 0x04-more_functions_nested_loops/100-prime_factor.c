@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main - entry line
  * @void: no argument
