@@ -1,4 +1,4 @@
-#include "main.h"
+%#include "main.h"
 
 /**
  * print_number - prints an interger.
@@ -17,4 +17,5 @@ void print_number(int n)
 		print_number(n / 10);
 	}
 	_putchar(n % 10 + '0');
+	_putchar(10);
 }
