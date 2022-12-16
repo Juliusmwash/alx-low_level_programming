@@ -7,10 +7,10 @@
  */
 int main() {
     int a;
-    double b = 2;
-    double n = 200;
-    int e = 2;
-    int f;
+    long double b = 2;
+    long double n = 200;
+    long int e = 2;
+    long int f;
     int g;
 
     while (e > 0)
@@ -28,7 +28,7 @@ int main() {
         if (e == 1)
         {
             f = b;
-            printf("%d", f);
+            printf("%lu", f);
             break;
         }
     }
