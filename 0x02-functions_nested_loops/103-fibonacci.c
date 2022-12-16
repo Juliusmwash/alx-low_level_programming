@@ -9,7 +9,6 @@ int main(void)
 	long int a = 0;
 	long int b = 1;
 	long int c = 0;
-	int d;
 	long int sum = 0;
 
 	while (c < 4000000)
