@@ -12,7 +12,7 @@ int main(void)
 	int d;
 	long int sum = 0;
 
-	for (d = 0; d < 4000000; d++)
+	while (c < 4000000)
 	{
 		c = a + b;
 		a = b;
@@ -22,6 +22,6 @@ int main(void)
 			sum += c;
 		}
 	}
-	printf("%lu", sum);
+	printf("%lu\n", sum);
 	return (0);
 }
