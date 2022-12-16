@@ -1,31 +1,50 @@
-#include <stdio.h>
+##include <stdio.h>
+
 /**
- * main - Entry
- *
+ * main - program that prints the first 98 Fibonacci numbers
+ *next line
  * Return: Always 0
  */
 int main(void)
 {
-	long int a = 0;
-	long int b = 1;
-	long int c = 0;
-	long int sum = 0;
-	int d = 0;
+	int k, boolean, boolean1;
+	long int num1, num2, fn, fn1, num11, num22;
 
-	while (c < 4000000)
+	num1 = 1;
+	num2 = 2;
+	boolean = boolean1 = 1;
+	printf("%ld, %ld", num1, num2);
+	for (k = 0; k < 96; k++)
 	{
-		c = a + b;
-		a = b;
-		b = c;
-		for (d = 0; d <= 98; d++)
+		if (boolean)
 		{
-			if(d != 98)
-				printf("%lu, ", c);
-			else
-				printf("%lu", c);
+			fn = num1 + num2;
+			printf(", %ld", fn);
+			num1 = num2;
+			num2 = fn;
 		}
-		if (d == 98)
-			break;
+		else
+		{
+			if (boolean1)
+			{
+				num11 = num1 % 1000000000;
+				num22 = num2 % 1000000000;
+				num1 = num1 / 1000000000;
+				num2 = num2 / 1000000000;
+				boolean1 = 0;
+			}
+			fn1 = (num11 + num22);
+			fn = num1 + num2 + (fn1 / 1000000000);
+			printf(", %ld", fn);
+			printf("%ld", fn1 % 1000000000);
+			num1 = num2;
+			num11 = num22;
+			num2 = fn;
+			num22 = (fn1 % 1000000000);
+		}
+		if (((num1 + num2) < 0) && boolean == 1)
+			boolean = 0;
 	}
+	printf("\n");
 	return (0);
 }
