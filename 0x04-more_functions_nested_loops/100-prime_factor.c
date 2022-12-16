@@ -1,38 +1,23 @@
-#include <stdio.h>
-#include <math.h>
+#include <stdio.h>@
+
 /**
- * main - Entry
- *
- * Return: Always 0
+ * main - entry line
+ * @void: no argument
+ * Return: alway 0
  */
 int main(void)
 {
-	int a;
+	long int i, n;
 
-	long double b = 2;
-	long double n = 612852475143;
-	long int e = 2;
-	long int f;
-	int g;
-
-	while (e > 0)
+	i = 612852475143;
+	for (n = 2; n <= i; n++)
 	{
-		if (remainder(n, b) == 0 && e != 1)
+		if (i % n == 0)
 		{
-			n = n / b;
-			e = n;
-			g = b;
-		}
-		else
-		{
-			b += 1;
-		}
-		if (e == 1)
-		{
-			f = b;
-			printf("%lu", f);
-			break;
+			i = i / n;
+			n--;
 		}
 	}
+	printf("%lu\n", n);
 	return (0);
 }
