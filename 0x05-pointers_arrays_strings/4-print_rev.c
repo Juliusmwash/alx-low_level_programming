@@ -26,5 +26,6 @@ void print_rev(char *s)
 			b--;
 		}
 		_putchar('\n');
+		a++;
 	}
 }
