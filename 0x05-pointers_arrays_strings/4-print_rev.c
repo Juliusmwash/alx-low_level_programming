@@ -4,7 +4,7 @@
  * @s: string
  *
  * Return: Always 0
- *
+ */
 void print_rev(char *s)
 {
 	int a = 0;
