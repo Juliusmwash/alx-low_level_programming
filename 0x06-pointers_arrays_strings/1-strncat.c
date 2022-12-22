@@ -30,39 +30,39 @@ char *_strncat(char *dest, char *src,int n)
 		b++;
 		else
 		{
-		    b++;
-		    break;
+			b++;
+			break;
 		}
 	}
 	if (b<n)
 	{
-	    while (a<=n-2)
-	    {
-	        if (*(src+l)!='\0')
-	        {
-	        *(dest+a)=*(src+l);
-	        a++;
-	        l++;
-	        }
-	        else
-	        break;
-	    }
-	}
+		while (a<=n-2)
+		{
+			if (*(src+l)!='\0')
+			{
+				*(dest+a)=*(src+l);
+				a++;
+				l++;
+			}
+			else
+			break;
+			}
+		}
 	else
 	{
-	while(a<=n-1)
-	{
-	    if (*(src+l)!='\0')
-	        {
-	        *(dest+a)=*(src+l);
-	        a++;
-	        l++;
-	        }
-	        else
-	        {
-	            break;
-	        }
-	}
+		while(a<=n-1)
+		{
+			if (*(src+l)!='\0')
+			{
+	        		*(dest+a)=*(src+l);
+	        		a++;
+	        		l++;
+	        	}
+	        	else
+			{
+	            		break;
+	        	}
+		}
 	}
 	return (dest);
 }
