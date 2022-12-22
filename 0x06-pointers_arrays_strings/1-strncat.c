@@ -1,12 +1,13 @@
 #include "main.h"
 /**
- * _strcat - returns concatenated string
+ * _strncat - returns concatenated string
  * @dest: first string
  * @src: second string
+ * @n: size in bytes
  *
  * Return: Always 0
  */
-char *_strcat(char *dest, char *src)
+char *_strncat(char *dest, char *src,int n)
 {
 	int a = 0;
 	int b = 0;
@@ -22,7 +23,8 @@ char *_strcat(char *dest, char *src)
 	}
 	while (b >= 0)
 	{
-		if (*(src + b) != '\0')
+		n = n*8;
+		if (b <= n)
 		{
 		*(dest + a) = *(src + b);
 		b++;
