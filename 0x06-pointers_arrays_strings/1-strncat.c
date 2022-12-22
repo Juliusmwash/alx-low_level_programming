@@ -11,6 +11,8 @@ char *_strncat(char *dest, char *src,int n)
 {
 	int a = 0;
 	int b = 0;
+	int h = 0;
+	int l = 0;
 
 	while (a >= 0)
 	{
@@ -21,17 +23,46 @@ char *_strncat(char *dest, char *src,int n)
 		else
 			break;
 	}
+	n = n*8;
 	while (b >= 0)
 	{
-		n = n*8;
-		if (b <= n)
-		{
-		*(dest + a) = *(src + b);
+		if (*(src+b)!='\0')
 		b++;
-		a++;
-		}
 		else
-			break;
+		{
+		    b++;
+		    break;
+		}
+	}
+	if (b<n)
+	{
+	    while (a<=n-2)
+	    {
+	        if (*(src+l)!='\0')
+	        {
+	        *(dest+a)=*(src+l);
+	        a++;
+	        l++;
+	        }
+	        else
+	        break;
+	    }
+	}
+	else
+	{
+	while(a<=n-1)
+	{
+	    if (*(src+l)!='\0')
+	        {
+	        *(dest+a)=*(src+l);
+	        a++;
+	        l++;
+	        }
+	        else
+	        {
+	            break;
+	        }
+	}
 	}
 	return (dest);
 }
