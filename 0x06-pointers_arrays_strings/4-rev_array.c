@@ -6,6 +6,7 @@
  *
  * Return: Always 0
  */
+
 void reverse_array(int *a, int n)
 {
 	int b, c;
