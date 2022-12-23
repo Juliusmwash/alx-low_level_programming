@@ -19,7 +19,6 @@ void reverse_array(int *a, int n)
 		arr[0] = *(a + c);
 		*(a + c) = *(a + n);
 		*(a + n) = arr[0];
-		c++;
 		n--;
 	}
 }
