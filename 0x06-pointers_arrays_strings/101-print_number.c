@@ -42,7 +42,7 @@ void print_number(int n)
 		m = n % 1000;
 		n = m / 100;
 		_putchar(n + '0');
-		n = n % 100;
+		n = m % 100;
 		m = n / 10;
 		_putchar(m + '0');
 		m = m % 10;
