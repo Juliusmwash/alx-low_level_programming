@@ -129,10 +129,10 @@ void print_number(int n)
 			else if (n < 100)
 			{
 			_putchar(48);
-			n = n / 10;
-			_putchar(n + '0');
-			n = n % 10;
-			_putchar(n + '0');
+			m = n / 10;
+			_putchar(m + '0');
+			m = n % 10;
+			_putchar(m + '0');
 			}
 			else
 			{
