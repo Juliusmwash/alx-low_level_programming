@@ -29,10 +29,19 @@ void print_number(int n)
 		m = n / 100;
 		_putchar(m + '0');
 		m = n % 100;
+		if (m < 10)
+		{
+		_putchar(48);
+		m = m / 1;
+		_putchar(m + '0');
+		}
+		else
+		{
 		n = m / 10;
 		_putchar(n + '0');
 		n = n % 10;
 		_putchar(n + '0');
+		}
 		_putchar(10);
 	}
 	else if (n < 10000)
@@ -40,6 +49,23 @@ void print_number(int n)
 		m = n / 1000;
 		_putchar(m + '0');
 		m = n % 1000;
+		if (m < 10)
+		{
+		_putchar(48);
+		_putchar(48);
+		m = m / 1;
+		_putchar(m + '0');
+		}
+		else if (m < 100)
+		{
+		_putchar(48);
+		m = m / 10;
+		_putchar(m + '0');
+		m = m % 10;
+		_putchar(m + '0');
+		}
+		else
+		{
 		n = m / 100;
 		_putchar(n + '0');
 		n = m % 100;
@@ -47,6 +73,7 @@ void print_number(int n)
 		_putchar(m + '0');
 		m = m % 10;
 		_putchar(m + '0');
+		}
 		_putchar(10);
 	}
 	}
@@ -72,10 +99,19 @@ void print_number(int n)
 			n = m / 100;
 			_putchar(n + '0');
 			n = m % 100;
+			if (n < 10)
+			{
+			_putchar(48);
+			n = n / 1;
+			_putchar(n + '0');
+			}
+			else
+			{
 			m = n / 10;
 			_putchar(m + '0');
 			m = n % 10;
 			_putchar(m + '0');
+			}
 			_putchar(10);
 		}
 		else if (m < 10000)
@@ -83,6 +119,23 @@ void print_number(int n)
 			n = m / 1000;
 			_putchar(n + '0');
 			n = m % 1000;
+			if (n < 10)
+			{
+			_putchar(48);
+			_putchar(48);
+			n = n / 1;
+			_putchar(n + '0');
+			}
+			else if (n < 100)
+			{
+			_putchar(48);
+			n = n / 10;
+			_putchar(n + '0');
+			n = n % 10;
+			_putchar(n + '0');
+			}
+			else
+			{
 			m = n / 100;
 			_putchar(m + '0');
 			m = n % 100;
@@ -90,6 +143,7 @@ void print_number(int n)
 			_putchar(n + '0');
 			n = m % 10;
 			_putchar(n + '0');
+			}
 			_putchar(10);
 		}
 	}
