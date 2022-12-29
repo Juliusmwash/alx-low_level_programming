@@ -39,7 +39,7 @@ void print_number(int n)
 		{
 		n = m / 10;
 		_putchar(n + '0');
-		n = n % 10;
+		n = m % 10;
 		_putchar(n + '0');
 		}
 		_putchar(10);
@@ -59,10 +59,10 @@ void print_number(int n)
 		else if (m < 100)
 		{
 		_putchar(48);
-		m = m / 10;
-		_putchar(m + '0');
-		m = m % 10;
-		_putchar(m + '0');
+		n = m / 10;
+		_putchar(n + '0');
+		n = m % 10;
+		_putchar(n + '0');
 		}
 		else
 		{
@@ -71,7 +71,7 @@ void print_number(int n)
 		n = m % 100;
 		m = n / 10;
 		_putchar(m + '0');
-		m = m % 10;
+		m = n % 10;
 		_putchar(m + '0');
 		}
 		_putchar(10);
