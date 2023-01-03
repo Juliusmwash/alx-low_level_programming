@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * _strspn - A program that gets the length of a prefix substring
  * @s: initial segment.
