@@ -30,7 +30,7 @@ int main(int argc, char *argv[])
 			{
 				for (i = 0; i < 5; i++)
 				{
-					if (!(k % coin[i]))
+					if (k >= coin[i])
 					{
 					k = k - coin[i];
 					n += 1;
