@@ -1,14 +1,11 @@
 #include <stdio.h>
+
 /**
- * main - prints the new name of the program
- * @argc: first argument
- * @argv: second argument
- *
- * Return: Always 0
+ * print_name - prints the new name of the program
+ * @s: first argument
  */
 
-int main(int argc, char *argv[])
+void print_name(char *s)
 {
-	printf("%s\n", argv[0]);
-	return (0);
+	printf("%s\n", s);
 }
