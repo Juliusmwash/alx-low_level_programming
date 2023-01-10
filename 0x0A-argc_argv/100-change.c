@@ -12,12 +12,17 @@
 int main(int argc, char *argv[])
 {
 	int arr[] = {25, 10, 5, 2, 1};
-	long long i, k, n;
+	long long i, k, n, l;
 
-	k = atoi(argv[1]);
-	printf("%s\n", argv[argc]);
-	if(argc == 2)
+	l = argc;
+	if (l < 2 || l > 2)
 	{
+		printf("Error\n");
+		return (1);
+	}
+	else if (l == 2)
+	{
+		k = atoi(argv[1]);
 		if (k > 0)
 		{
 		for (i = 0; i < 5; i++)
@@ -34,11 +39,6 @@ int main(int argc, char *argv[])
 		{
 			printf("%d\n", 0);
 		}
-	}
-	else
-	{
-		printf("Error\n");
-		return (1);
 	}
 	return (0);
 }
