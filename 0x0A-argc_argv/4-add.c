@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <ctype.h>
+#include <stdlib.h>
 #include "main.h"
 
 /**
@@ -46,13 +47,10 @@ int main(int argc, char *argv[])
 	sum = 0;
 	for (i = 1; i < argc; i++)
 	{
-		int q;
-
 		j = check_for_num(argv[i]);
 		if (j == 0)
 		{
-			sscanf(argv[i], "%d", &q);
-			sum = sum + q;
+			sum = sum + atoi(argv[i]);
 		}
 		else
 		{
