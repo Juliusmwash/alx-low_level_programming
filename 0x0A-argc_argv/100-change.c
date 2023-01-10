@@ -25,20 +25,20 @@ int main(int argc, char *argv[])
 	{
 		if (k > 0)
 		{
-			n = 0;
-			while (k != 0)
-			{
-				for (i = 0; i < 5; i++)
-				{
-					if (k >= coin[i])
-					{
-					k = k - coin[i];
-					n += 1;
-					break;
-					}
-				}
-			}
-			printf("%d\n", n);
+		n = 0;
+		while (k != 0)
+		{
+		for (i = 0; i < 5; i++)
+		{
+		if (k >= coin[i])
+		{
+		k = k - coin[i];
+		n += 1;
+		break;
+		}
+		}
+		}
+		printf("%d\n", n);
 		}
 		else
 		{
