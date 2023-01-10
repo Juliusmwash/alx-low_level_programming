@@ -10,12 +10,12 @@
 
 int check_for_num(char *c)
 {
-	int i, t;
+	int w, t;
 
-	i = 0;
-	while (*(c + i) != '\0')
+	w = 0;
+	while (*(c + w) != '\0')
 	{
-		if (isdigit(*(c + i)))
+		if (isdigit(*(c + w)))
 		{
 			t = 0;
 		}
@@ -24,7 +24,7 @@ int check_for_num(char *c)
 			t = 1;
 			break;
 		}
-		i++;
+		w++;
 	}
 	return (t);
 }
@@ -46,10 +46,13 @@ int main(int argc, char *argv[])
 	sum = 0;
 	for (i = 1; i < argc; i++)
 	{
+		int q;
+
 		j = check_for_num(argv[i]);
 		if (j == 0)
 		{
-			sum = sum + atoi(argv[i]);
+			sscanf(argv[i], "%d", &q);
+			sum = sum + q;
 		}
 		else
 		{
