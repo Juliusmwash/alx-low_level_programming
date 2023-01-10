@@ -12,29 +12,33 @@
 
 int main(int argc, char *argv[])
 {
-	int arr[] = {25, 10, 5, 2, 1};
-	long i, k, n, l;
+	int coin[] = {25, 10, 5, 2, 1};
+	int i, k, n;
 
-	l = argc;
-	if (l < 2 || l > 2)
+	if (argc < 2 || argc > 2)
 	{
 		printf("Error\n");
 		return (1);
 	}
-	else if (l == 2)
+	k = atoi(argv[1]);
+	if (argc == 2)
 	{
-		k = atoi(argv[1]);
 		if (k > 0)
 		{
-		for (i = 0; i < 5; i++)
-		{
-			if (!(k % arr[i]))
+			n = 0;
+			while (k != 0)
 			{
-				n = k / arr[i];
-				printf("%ld\n", n);
-				break;
+				for (i = 0; i < 5; i++)
+				{
+					if (!(k % coin[i]))
+					{
+					k = k - coin[i];
+					n += 1;
+					break;
+					}
+				}
 			}
-		}
+			printf("%d\n", n);
 		}
 		else
 		{
