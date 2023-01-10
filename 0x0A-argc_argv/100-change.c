@@ -13,7 +13,7 @@
 int main(int argc, char *argv[])
 {
 	int arr[] = {25, 10, 5, 2, 1};
-	long long i, k, n, l;
+	long i, k, n, l;
 
 	l = argc;
 	if (l < 2 || l > 2)
@@ -31,7 +31,7 @@ int main(int argc, char *argv[])
 			if (!(k % arr[i]))
 			{
 				n = k / arr[i];
-				printf("%lld\n", n);
+				printf("%ld\n", n);
 				break;
 			}
 		}
