@@ -28,8 +28,8 @@ char *str_concat(char *s1, char *s2)
 		return (NULL);
 	if (s1 == NULL)
 	{
-		s[l] = "";
-	}i
+		s[i] = "";
+	}
 	else
 	{
 	for (l = 0; l < i; l++)
