@@ -41,9 +41,12 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		count = lens1 + lens2;
 	else
 		count = lens1 + n;
-	s = malloc(sizeof(char) * count + 2);
+	s = malloc(sizeof(char) * count + 1);
 	if (s == NULL)
+	{
+		free(s);
 		return (NULL);
+	}
 	j = 0;
 	i = 0;
 	while (j < lens1)
