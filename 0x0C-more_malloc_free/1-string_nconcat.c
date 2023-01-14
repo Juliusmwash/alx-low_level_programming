@@ -44,9 +44,9 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	s = malloc(sizeof(char) * count + 1);
 	if (s == NULL)
 		return (NULL);
-	if (s1 == '\0')
+	if (s1 == NULL)
 		s1 = "";
-	if (s2 == '\0')
+	if (s2 == NULL)
 		s2 = "";
 	j = 0;
 	i = 0;
