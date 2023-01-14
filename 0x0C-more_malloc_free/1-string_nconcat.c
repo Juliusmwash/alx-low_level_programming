@@ -1,29 +1,45 @@
 #include "main.h"
+
 /**
- * find_lengths - find length of string s1 and s2
- * @lens1: length of string s1
- * @lens2: length of string s2
+ * len1 - function to get length of s1
+ * @s1: string
  *
- * Return: nothing
+ * Return: length of s1
  */
 
-void find_lengths(unsigned int lens1, unsigned int lens2)
+unsigned int len1(char *s1)
 {
-	unsigned int i, j;
+	unsigned int i, lens1;
 
+	i = 0;
 	lens1 = 0;
-	lens2 = 0;
-	while (*(s1 + i) != '\0')
+	while (s1[i] != '\0')
 	{
 		lens1 += 1;
 		i++;
 	}
+	return (lens1);
+}
+
+/**
+ * len2 - function to get length of s2
+ * @s2: string
+ *
+ * Return: length of s2
+ */
+
+unsigned int len2(char *s2)
+{
+	unsigned int i, lens2;
+
 	i = 0;
-	while (*(s2 + i) != '\0')
+	lens2 = 0;
+	while (s2[i] != '\0')
 	{
 		lens2 += 1;
 		i++;
 	}
+	return (lens2);
 }
 
 /**
@@ -40,7 +56,8 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	unsigned int i, j, lens1, lens2, count;
 	char *s;
 
-	find_lengths(lens1, lens2);
+	lens1 = len1(s1);
+	lens2 = len2(s2);
 	if (n >= lens2)
 		count = lens1 + lens2;
 	else
@@ -56,23 +73,19 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		j++;
 	}
 	if (n >= lens2)
-	{
 		while (i < lens2)
 		{
 			s[j] = s2[i];
 			j++;
 			i++;
 		}
-	}
 	else
-	{
 		while (i < n)
 		{
 			s[j] = s2[i];
 			j++;
 			i++;
 		}
-	}
 	s[j] = '\0';
 	return (s);
 }
