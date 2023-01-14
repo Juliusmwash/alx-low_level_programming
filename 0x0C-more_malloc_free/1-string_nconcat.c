@@ -41,7 +41,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		count = lens1 + lens2;
 	else
 		count = lens1 + n;
-	s = malloc(sizeof(char) * count);
+	s = malloc(sizeof(char) * count + 1);
 	if (s == NULL)
 		return (NULL);
 	j = 0;
@@ -65,6 +65,6 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 			j++;
 			i++;
 		}
-	/*s[j] = '\0';*/
+	[j] = '\0';
 	return (s);
 }
