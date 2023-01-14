@@ -1,45 +1,24 @@
 #include "main.h"
 
 /**
- * len1 - function to get length of s1
- * @s1: string
+ * len- function to get length of string
+ * @s: string
  *
- * Return: length of s1
+ * Return: length of string
  */
 
-unsigned int len1(char *s1)
+unsigned int len(char *s)
 {
-	unsigned int i, lens1;
+	unsigned int i, length;
 
 	i = 0;
-	lens1 = 0;
-	while (s1[i] != '\0')
+	length = 0;
+	while (s[i] != '\0')
 	{
-		lens1 += 1;
+		length += 1;
 		i++;
 	}
-	return (lens1);
-}
-
-/**
- * len2 - function to get length of s2
- * @s2: string
- *
- * Return: length of s2
- */
-
-unsigned int len2(char *s2)
-{
-	unsigned int i, lens2;
-
-	i = 0;
-	lens2 = 0;
-	while (s2[i] != '\0')
-	{
-		lens2 += 1;
-		i++;
-	}
-	return (lens2);
+	return (length);
 }
 
 /**
@@ -56,8 +35,8 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	unsigned int i, j, lens1, lens2, count;
 	char *s;
 
-	lens1 = len1(s1);
-	lens2 = len2(s2);
+	lens1 = len(s1);
+	lens2 = len(s2);
 	if (n >= lens2)
 		count = lens1 + lens2;
 	else
