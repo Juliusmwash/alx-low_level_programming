@@ -41,6 +41,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 			s1[i] = 0;
 			i++;
 		}
+		return (s1);
 	}
 	return (NULL);
 }
