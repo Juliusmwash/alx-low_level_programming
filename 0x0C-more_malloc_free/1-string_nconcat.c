@@ -1,19 +1,16 @@
 #include "main.h"
-
 /**
- * string_nconcat - concatenates string s1 with n bytes of string s2
- * @s1: first string
- * @s2: second string
+ * find_lengths - find length of string s1 and s2
+ * @lens1: length of string s1
+ * @lens2: length of string s2
  *
- * Return: pointer to concatenated string
+ * Return: nothing
  */
 
-char *string_nconcat(char *s1, char *s2, unsigned int n)
+void find_lengths(unsigned int lens1, unsigned int lens2)
 {
-	unsigned int i, j, lens1, lens2, count;
-	char *s;
+	unsigned int i, j;
 
-	i = 0;
 	lens1 = 0;
 	lens2 = 0;
 	while (*(s1 + i) != '\0')
@@ -27,6 +24,23 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		lens2 += 1;
 		i++;
 	}
+}
+
+/**
+ * string_nconcat - concatenates string s1 with n bytes of string s2
+ * @s1: first string
+ * @s2: second string
+ * @n: bytes of stringbs2 to copy
+ *
+ * Return: pointer to concatenated string
+ */
+
+char *string_nconcat(char *s1, char *s2, unsigned int n)
+{
+	unsigned int i, j, lens1, lens2, count;
+	char *s;
+
+	find_lengths(lens1, lens2);
 	if (n >= lens2)
 		count = lens1 + lens2;
 	else
