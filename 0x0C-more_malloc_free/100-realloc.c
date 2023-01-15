@@ -2,7 +2,7 @@
 
 /**
  * _realloc - reallocates memory
- * @ptr - previous allocated memory or NULL
+ * @ptr: - previous allocated memory or NULL
  * @old_size: - memory previously allocated by malloc
  * @new_size: - new memory to be allocated
  *
