@@ -2,12 +2,13 @@
 
 /**
  * main - prints file name of the program
+ * @void: nothing
  *
  * Return: 0
  */
 
-int main()
+int main(void)
 {
-	printf("0%s\n", __FILE__);
+	printf("%s\n", __FILE__);
 	return (0);
 }
