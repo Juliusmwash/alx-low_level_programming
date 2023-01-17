@@ -7,7 +7,7 @@
   * @age: Second member
   * @owner: Third member
   *
-  * Description: Small dog information
+  * Description: Long description
   */
 
 struct dog
