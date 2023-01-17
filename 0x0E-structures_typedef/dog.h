@@ -2,7 +2,6 @@
 #define DOG_H
 
 #include <stdlib.h>
-#include <stdio.h>
 
  /**
   * struct dog - contains dog information
@@ -10,8 +9,7 @@
   * @age: Second member
   * @owner: Third member
   *
-  * Description: structure consisting of the 
-  * name, age and the owner of the dog
+  * Description: Longer description.
   */
 
 struct dog
