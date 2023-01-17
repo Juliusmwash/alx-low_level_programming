@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 /**
- * main - prints name of the program file
+ * main - prints file name of the program
  *
  * Return: 0
  */
 
 int main()
 {
-	printf("%s\n", __FILE__);
+	printf("0%s\n", __FILE__);
 	return (0);
 }
