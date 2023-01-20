@@ -15,11 +15,10 @@ int (*get_op_func(char *s))(int, int);
  * @f: The function associated
  */
 
-struct op
+typedef struct op
 {
     char *op;
     int (*f)(int a, int b);
-};
-typedef struct op op_t;
+}op_t;
 
 #endif
