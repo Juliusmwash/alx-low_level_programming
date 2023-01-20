@@ -11,7 +11,7 @@
 
 int int_index(int *array, int size, int (*cmp)(int))
 {
-	int i,check
+	int i,check;
 
 	if (array != NULL && cmp != NULL)
 	{
@@ -22,9 +22,6 @@ int int_index(int *array, int size, int (*cmp)(int))
 		check = cmp(array[i]);
 		if (check > 0)
 			return (i);
-		else
-			return (-1);
-		}
 	}
 	return (-1);
 }
