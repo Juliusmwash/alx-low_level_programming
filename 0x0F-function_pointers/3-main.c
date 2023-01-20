@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
-#include "calc.h"
+#include "3-calc.h"
 
 int main(int argc, char *argv[])
 {
