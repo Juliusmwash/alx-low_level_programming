@@ -2,7 +2,7 @@
 
 /**
  * print_name - prints the name passed as an argument
- * @f - pointer to a function
+ * @f: pointer to a function
  *
  * Return: Nothing
  */
