@@ -1,6 +1,6 @@
-#include "3-calc.h"
-#include <string.h>
 #include <stdlib.h>
+#include <string.h>
+#include "3-calc.h"
 
 /**
  * get_op_func - pointer returning a pointer to function
