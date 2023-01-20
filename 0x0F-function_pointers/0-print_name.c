@@ -2,7 +2,7 @@
  * File: 0-print_name.c
  * Auth: Julius Mwangi
  */
-
+#include <stdlib.h>
 #include "function_pointers.h"
 
 /**
