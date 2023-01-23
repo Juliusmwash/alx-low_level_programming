@@ -23,13 +23,13 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	for (i = 0; i < n; i++)
 	{
 		s = va_arg(args, char *);
-		if ( s == NULL && i != n - 1)
+		if (s == NULL && i != n - 1)
 			printf("(nil)%s", separator);
 		else if (s == NULL && i == n - 1)
 			printf("(nil)");
-		else if(s != NULL && i != n - 1)
+		else if (s != NULL && i != n - 1)
 			printf("%s%s", s, separator);
-		else if(s != NULL && i == n -1)
+		else if (s != NULL && i == n - 1)
 			printf("%s", s);
 	}
 	putchar(10);
