@@ -8,6 +8,7 @@
  * @separator: Separates the numbers as they are printed
  * @n: count of all the numbers given
  *
+ * Return: Nothing
  */
 
 void print_numbers(const char *separator, const unsigned int n, ...)
@@ -20,7 +21,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 		exit(0);
 	for (i = 0; i < n; i++)
 	{
-		if (i == n - 1)
+		if (i == (n - 1))
 		{
 			printf("%d\n", va_arg(args, int));
 			exit(0);
