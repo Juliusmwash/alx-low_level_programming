@@ -1,4 +1,4 @@
-#include "lists.h"
+include "lists.h"
 
 /**
  * print_list - function printing all the items in a linked list
@@ -8,15 +8,14 @@
 size_t print_list(const list_t *h)
 {
 	int count;
-	char *s;
 
 	count = 0;
 	while (h != 0)
 	{
-		s = h->str;
-		if (s == NULL)
-			s = "(nil)";
-		printf("[%d] %s", h->len, s);
+		if (h->str == NULL)
+			printf("[0] %s\n", (nil));
+		else
+			printf("[%d] %s", h->len, h->str);
 		h = h->next;
 		count += 1;
 	}
