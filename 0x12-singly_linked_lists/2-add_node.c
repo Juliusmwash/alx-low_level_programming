@@ -1,5 +1,5 @@
-#include "lists.h"
 #include <string.h>
+#include "lists.h"
 
 /**
  * add_node_end - function printing all the items in a linked list
