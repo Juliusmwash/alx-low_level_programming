@@ -7,7 +7,7 @@ typedef struct listint_s
     int n;
     struct listint_s *next;
 } listint_t;
-
+int delete_helper(listint_t **temp, listint_t **temp1, int index);
 listint_t *add_nodeint_end(listint_t **head, const int n)
 {
 	listint_t *new_list, *temp;
@@ -42,41 +42,18 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 
 int delete_nodeint_at_index(listint_t **head, unsigned int index)
 {
-	int count, count1;
+	int check;
 	listint_t *temp, *temp1;
 
-	count = 0;
-	count1 = 0;
 	temp = *head;
 	temp1 = *head;
 	if (*head == 0)
-	{
 		return (-1);
-	}
 	if (index > 0)
 	{
-		while (count < index-1)
-		{
-			temp = temp->next;
-			count++;
-		}
-		while (count1 < index)
-		{
-			temp1 = temp1->next;
-			if (temp1 == 0)
-				return (-1);
-			count1++;
-		}
-		if (temp1->next == 0)
-		{
-			free(temp1);
-			temp->next = NULL;
-		}	
-		else
-		{
-			temp->next = temp1->next;
-			free(temp1);
-		}
+		check = delete_helper(&temp, &temp1, index);
+		if (check == -1)
+			return (-1);
 	}
 	else if (index == 0)
 	{
@@ -94,6 +71,36 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 	}
 	else
 		return (-1);
+	return (1);
+}
+int delete_helper(listint_t **temp, listint_t **temp1, int index)
+{
+	int count, count1;
+
+	count = 0;
+	count1 = 0;
+        while (count < index - 1)
+        {
+                *temp = (*temp)->next;
+                count++;
+        }
+        while (count1 < index)
+        {
+		*temp1 = (*temp1)->next;
+		if (*temp1 == 0)
+			return (-1);
+		count1++;
+	}
+	if ((*temp1)->next == 0)
+	{
+		free(*temp1);
+		(*temp)->next = NULL;
+	}
+	else
+	{
+		(*temp)->next = (*temp1)->next;
+		free(*temp1);
+	}
 	return (1);
 }
 size_t print_listint(const listint_t *h)

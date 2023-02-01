@@ -1,6 +1,6 @@
 #include "lists.h"
 
-int delete_helper(listint_t **temp, listint_t **temp1, int index)
+int delete_helper(listint_t **temp, listint_t **temp1, unsigned int index)
 {
 	int count, count1;
 
