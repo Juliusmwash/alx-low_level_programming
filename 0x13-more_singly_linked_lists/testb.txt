@@ -1,20 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
-
-/**
- * struct listint_s - singly linked list
- * @n: integer
- * @next: points to the next node
- *
- * Description: singly linked list node structure
- * 
- */
-typedef struct listint_s
-{
-    int n;
-    struct listint_s *next;
-} listint_t;
+#include "lists.h"
 
 /**
  * print_listint - prints all the elements of the list
@@ -54,6 +41,22 @@ size_t listint_len(const listint_t *h)
         }
         return (count);
 }
+/**
+ * free_listint - frees list                                   * @head: linked list head
+ * Return: Nothing
+ */
+
+void free_listint(listint_t *head)
+{                                                                     listint_t *tmp;
+
+        while(head)
+        {
+                tmp = head;
+                head = tmp->next;
+                free(tmp);
+                tmp = NULL;
+        }
+}
 
 /**
  * add_nodeint - adds list node at the beginning
@@ -89,6 +92,30 @@ listint_t *add_nodeint(listint_t **head, const int n)
  * 
  * Return: Always 0.
  */
+/**
+ * add_nodeint_end - function adding list node at the end
+ * @head: list head                                            * @n: data to add to the list
+ * Return: pointer to newly added node
+ */
+
+listint_t *add_nodeint_end(listint_t **head, const int n)
+{                                                                     listint_t *temp, *mem;
+
+        temp = *head;
+        mem = malloc(sizeof(struct listint_s));
+        if (mem == NULL)                                                      return (NULL);
+        mem->n = n;
+        mem->next = NULL;
+
+        if (*head == NULL)
+                *head = mem;
+        else
+        {
+                while (temp->next)                                                    temp = temp->next;
+                temp->next = mem;                                     }
+        return (mem);
+}
+
 
 /*
 int main(void)
@@ -134,7 +161,7 @@ int main(void)
     printf("-> %lu elements\n", n);
     free(new);
     return (0);
-}*/
+}
 int main(void)
 {
     listint_t *head;
@@ -149,5 +176,23 @@ int main(void)
     add_nodeint(&head, 402);
     add_nodeint(&head, 1024);
     print_listint(head);
+    return (0);
+}*/
+int main(void)
+{
+    listint_t *head;
+
+    head = NULL;
+    add_nodeint_end(&head, 0);
+    add_nodeint_end(&head, 1);
+    add_nodeint_end(&head, 2);
+    add_nodeint_end(&head, 3);
+    add_nodeint_end(&head, 4);
+    add_nodeint_end(&head, 98);
+    add_nodeint_end(&head, 402);
+    add_nodeint_end(&head, 1024);
+    print_listint(head);
+    free_listint(head);
+    head = NULL;
     return (0);
 }
