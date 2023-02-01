@@ -50,7 +50,9 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 	temp = *head;
 	temp1 = *head;
 	if (*head == 0)
+	{
 		return (-1);
+	}
 	if (index > 0)
 	{
 		while (count < index-1)
@@ -65,7 +67,6 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 				return (-1);
 			count1++;
 		}
-		printf("values: %d,%d\n",temp->n,temp1->n);
 		if (temp1->next == 0)
 		{
 			free(temp1);
@@ -73,33 +74,25 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 		}	
 		else
 		{
-			printf("addressof temp previous98: %p\n", temp->next);
-			printf("addressof temp1 previous402: %p\n", temp1->next);
-			printf("temp->n : %d\n",(temp->next)->n);
 			temp->next = temp1->next;
-			printf("temp->n : %d\n",(temp->next)->n);
-			printf("addressof temp after402: %p\n", temp->next);
 			free(temp1);
 		}
 	}
 	else if (index == 0)
 	{
+		if ((*head)->next)
+		{
 		temp1 = temp->next;
 		*head = temp1;
 		free(temp);
+		}
+		else
+		{
+			*head = NULL;
+		}
 	}
 	else
 		return (-1);
-
-	listint_t *test;
-	test = *head;
-	printf("Test\n");
-	printf("head n: %d\n",(*head)->n);
-	/*while (test)
-	{
-		printf("%d,",(*test)->n);
-		test = &(*test)->next;
-	}*/
 	return (1);
 }
 size_t print_listint(const listint_t *h)
