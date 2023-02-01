@@ -1,4 +1,10 @@
 #include "lists.h"
+/**
+ * delete_helper - performs necessary steps to enable deleting the node
+ * @temp: pointer for traversing the list
+ * @temp1: pointer for traversing the list
+ * @index: index of the node to delete
+ */
 
 int delete_helper(listint_t **temp, listint_t **temp1, unsigned int index)
 {
