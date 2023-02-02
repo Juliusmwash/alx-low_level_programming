@@ -35,5 +35,6 @@ size_t print_listint_safe(const listint_t *head);
 size_t looped_listint_count(listint_t *head);
 size_t free_listint_safe(listint_t **h);
 listint_t *find_listint_loop(listint_t *head);
+int insert_nodeint_helper(listint_t **temp, listint_t **temp1, unsigned int idx);
 
 #endif
