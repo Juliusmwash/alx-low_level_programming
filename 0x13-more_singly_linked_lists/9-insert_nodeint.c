@@ -52,6 +52,14 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 	if (mem == NULL)
 		return (NULL);
 	mem->n = n;
+
+	if (*head == NULL)
+	{
+		mem->next = NULL;
+		*head = mem;
+		return (mem);
+	}
+
 	temp = *head;
 	temp1 = *head;
 	check = insert_nodeint_helper(&temp, &temp1, idx);
