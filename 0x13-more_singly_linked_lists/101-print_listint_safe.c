@@ -1,3 +1,4 @@
+#include "lists.h"
 /**
  * looped_listint_len - Counts the number of unique nodes
  *                      in a looped listint_t linked list.
