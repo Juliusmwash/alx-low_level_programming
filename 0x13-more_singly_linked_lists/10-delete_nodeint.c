@@ -5,6 +5,7 @@
  * @temp: pointer for traversing the list
  * @temp1: pointer for traversing the list
  * @index: index of the node to delete
+ * Return: 1 if success or 0 if a failure
  */
 
 int delete_helper(listint_t **temp, listint_t **temp1, unsigned int index)
@@ -13,18 +14,18 @@ int delete_helper(listint_t **temp, listint_t **temp1, unsigned int index)
 
 	count = 0;
 	count1 = 0;
-        while (count < index - 1)
-        {
+	while (count < index - 1)
+	{
 		if (*temp)
 		{
-                *temp = (*temp)->next;
-		count++;
+			*temp = (*temp)->next;
+			count++;
 		}
 		else
 			return (-1);
-        }
-        while (count1 < index)
-        {
+	}
+	while (count1 < index)
+	{
 		*temp1 = (*temp1)->next;
 		if (*temp1 == 0)
 			return (-1);
