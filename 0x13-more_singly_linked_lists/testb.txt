@@ -64,7 +64,138 @@ void free_listint(listint_t *head)
  * @n: data to add
  * Return: address of the new node
  */
+/**
+ * *
+ * free_listint2 - frees list
+ * @head: pointer to linked list head
+ */
 
+void free_listint2(listint_t **head)                          {
+        listint_t *tmp;
+
+        while(*head)
+        {
+                tmp = *head;                                                  if ((*head)->next)
+                {
+                        *head = tmp->next;
+                        free(tmp);
+                        tmp = NULL;
+                }
+		else
+                {
+                        free(tmp);                                                    *head = NULL;
+                        tmp = NULL;
+                }
+	}
+}
+
+/**                                                            * pop_listint - deletes first node
+ * @head: linked list first node
+ * Return: head's node data
+ */
+
+int pop_listint(listint_t **head)
+{
+        listint_t *tmp;
+        size_t data;
+
+        if (*head == NULL)
+                return (0);
+        tmp = *head;
+        *head = (*head)->next;
+        data = tmp->n;
+        free(tmp);
+        tmp = NULL;
+        return (data);
+}
+/**                                                            * get_nodeint_at_index - gets the required node
+ * @head: linked list first node                               * @index: index of the required node
+ * Return: nth node
+ */                                                           
+listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
+{
+        size_t count;                                                                                                               count = 0;
+        while(count <= index && head)
+        {                                                                     if (count == index)
+                        return (head);
+                else                                                          {
+                        head = head->next;
+                        count++;
+                }
+        }
+        return (NULL);
+}
+
+/**                                                                                * insert_nodeint_helper - performs necessary operations to enhance insertion      * @temp: pointer to linked list
+ * @temp1: pointer to linked list                                                  * Return: Nothing
+ */                                                                           
+
+/**                                                                                              * insert_nodeint_helper - performs necessary operations to enhance insertion                    * @temp: pointer to linked list                                                                 * @temp1: pointer to linked list                                                                * Return: Nothing                                                                               */                                                                                             int insert_nodeint_helper(listint_t **temp, listint_t **temp1, unsigned int idx)
+{
+        unsigned int count;                                                                                                                                                                             count = 0;                                                                                      while (count < idx)
+        {
+                if (*temp)
+                {
+                        *temp = (*temp)->next;
+                        count++;
+                }
+                else
+                        break;
+        }
+        count = 0;
+        while (count <= idx)
+        {
+                if (*temp1)
+                {
+                        *temp1 = (*temp1)->next;
+                        count++;
+                }
+                else
+                        return (0);
+        }
+	return (0);
+}
+
+/**
+ * insert_nodeint_at_index - inserts node
+ * @head: first node
+ * @idx: index to add node
+ * @n: data to add
+ * Return: new node
+ */
+
+listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
+{
+        listint_t *temp, *mem, *temp1;
+        unsigned int check;
+                                                                                                        mem = malloc(sizeof(struct listint_s));                                                         if (mem == NULL)                                                                                        return (NULL);
+        mem->n = n;                                                                                     temp = *head;                                                                                   temp1 = *head;
+        check = insert_nodeint_helper(&temp, &temp1, idx);                                                if (check == 0)                                                                                         return (0);                                                                             if (idx == 0)
+        {
+                mem->next = temp;
+                *head = mem;
+        }
+        else
+        {
+        mem->next = temp1;
+        temp->next = mem;
+        }
+        return (mem);
+}
+/**                                                            
+ * sum_listint - adds all the data in the list;
+ * @head: first node of the list
+ * Return: sum of all the data in the list
+ */
+
+int sum_listint(listint_t *head)
+{
+        int sum;
+
+        sum = 0;
+        if (head == NULL)
+                return (0);
+        while(head)                                                   {                                                                     sum += head->n;                                               head = head->next;                                    }                                                             return (sum);                                         }
 listint_t *add_nodeint(listint_t **head, const int n)
 {
         listint_t *tmp, *mem;
@@ -177,7 +308,7 @@ int main(void)
     add_nodeint(&head, 1024);
     print_listint(head);
     return (0);
-}*/
+}
 int main(void)
 {
     listint_t *head;
@@ -191,8 +322,119 @@ int main(void)
     add_nodeint_end(&head, 98);
     add_nodeint_end(&head, 402);
     add_nodeint_end(&head, 1024);
-    print_listint(head);
+    //print_listint(head);
     free_listint(head);
+    print_listint(head);
     head = NULL;
+    return (0);
+}
+int main(void)
+{
+    listint_t *head;
+
+    head = NULL;
+    add_nodeint_end(&head, 0);
+    add_nodeint_end(&head, 1);
+    add_nodeint_end(&head, 2);
+    add_nodeint_end(&head, 3);
+    add_nodeint_end(&head, 4);
+    add_nodeint_end(&head, 98);
+    add_nodeint_end(&head, 402);
+    add_nodeint_end(&head, 1024);
+   // print_listint(head);
+    free_listint2(&head);
+    //free_listint2(&head);
+    printf("%p\n", (void *)head);
+    if (head == NULL)
+	    printf("yes am null\n");
+    return (0);
+}
+
+int main(void)
+{
+    listint_t *head;
+    int n;
+
+    head = NULL;
+    add_nodeint_end(&head, 0);
+    add_nodeint_end(&head, 1);
+    add_nodeint_end(&head, 2);
+    add_nodeint_end(&head, 3);
+    add_nodeint_end(&head, 4);
+    add_nodeint_end(&head, 98);
+    add_nodeint_end(&head, 402);
+    add_nodeint_end(&head, 1024);
+    print_listint(head);
+    n = pop_listint(&head);
+    printf("- %d\n", n);
+    print_listint(head);
+    n = pop_listint(&head);
+    printf("- %d\n", n);
+    print_listint(head);
+    free_listint2(&head);
+    printf("%p\n", (void *)head);
+    return (0);
+}
+
+int main(void)
+{
+    listint_t *head;
+    listint_t *node;
+
+    head = NULL;
+    add_nodeint_end(&head, 0);
+    add_nodeint_end(&head, 1);
+    add_nodeint_end(&head, 2);
+    add_nodeint_end(&head, 3);
+    add_nodeint_end(&head, 4);
+    add_nodeint_end(&head, 98);
+    add_nodeint_end(&head, 402);
+    add_nodeint_end(&head, 1024);
+    print_listint(head);
+    node = get_nodeint_at_index(head, 5);
+    printf("%d\n", node->n);
+    print_listint(head);
+    free_listint2(&head);
+    return (0);
+}
+int main(void)
+{
+    listint_t *head;
+    int sum;
+
+    head = NULL;
+    add_nodeint_end(&head, 0);
+    add_nodeint_end(&head, 1);
+    add_nodeint_end(&head, 2);
+    add_nodeint_end(&head, 3);
+    add_nodeint_end(&head, 4);
+    add_nodeint_end(&head, 98);
+    add_nodeint_end(&head, 402);
+    add_nodeint_end(&head, 1024);
+    sum = sum_listint(head);
+    printf("sum = %d\n", sum);
+    free_listint2(&head);
+    return (0);
+}*/
+int main(void)
+{
+    listint_t *head;
+    void *check;
+
+    head = NULL;
+    add_nodeint_end(&head, 0);
+    add_nodeint_end(&head, 1);
+    add_nodeint_end(&head, 2);
+    add_nodeint_end(&head, 3);
+    add_nodeint_end(&head, 4);
+    add_nodeint_end(&head, 98);
+    add_nodeint_end(&head, 402);
+    add_nodeint_end(&head, 1024);
+    print_listint(head);
+    printf("-----------------\n");
+   check = insert_nodeint_at_index(&head, 20,  4096);
+   printf("\ncheck: %p\n", check);
+    print_listint(head);
+    free_listint2(&head);
     return (0);
 }

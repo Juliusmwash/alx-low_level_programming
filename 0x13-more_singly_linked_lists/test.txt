@@ -1,45 +1,112 @@
 #include <stdlib.h>
-#include <string.h>
 #include <stdio.h>
+#include <string.h>
 
+
+/**
+ * struct listint_s - singly linked list
+ * @n: integer
+ * @next: points to the next node
+ *
+ * Description: singly linked list node structure
+ *
+ */
 typedef struct listint_s
 {
     int n;
     struct listint_s *next;
 } listint_t;
-int delete_helper(listint_t **temp, listint_t **temp1, int index);
-/*listint_t *add_nodeint_end(listint_t **head, const int n)
+
+/**
+ * insert_nodeint_helper - performs necessary operations to enhance insertion
+ * @temp: pointer to linked list
+ * @temp1: pointer to linked list
+ * Return: Nothing
+ */
+/**
+ * insert_nodeint_helper - performs necessary operations to enhance insertion
+ * @temp: pointer to linked list
+ * @temp1: pointer to linked list
+ * Return: Nothing
+ */
+int insert_nodeint_helper(listint_t **temp,  listint_t **temp1,  unsigned int idx)
 {
-	listint_t *new_list, *temp;
+	unsigned int count;
 
-	if (head)
+	count = 0;
+	while (count < idx - 1)
 	{
-		new_list = malloc(sizeof(listint_t));
-		if (new_list == NULL)
-			return (NULL);
-
-		new_list->n = n;
-		new_list->next = NULL;
-
-		if (*head == NULL)
+		if (*temp)
 		{
-			*head = new_list;
-			return (*head);
+			*temp = (*temp)->next;
+			count++;
+		}
+		if ((*temp)->next == 0)
+			return(0);
+	}
+	count = 0;
+	while (count < idx)
+	{
+		if (*temp1)
+		{
+			*temp1 = (*temp1)->next;
+			count++;
 		}
 		else
-		{
-			temp = *head;
-			while (temp->next)
-				temp = temp->next;
-
-			temp->next = new_list;
-			return (temp);
-		}
+			return (0);
 	}
-
-	return (NULL);
+	return (1);
 }
-*/
+
+/**
+ * insert_nodeint_at_index - inserts node
+ * @head: first node
+ * @idx: index to add node
+ * @n: data to add
+ * Return: new node
+ */
+
+listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
+{
+	//printf("head coming: %d\n", (*head)->n);
+	listint_t *temp, *mem, *temp1;
+	unsigned int check;
+
+	mem = malloc(sizeof(struct listint_s));
+	if (mem == NULL)
+		return (NULL);
+	mem->n = n;
+	if (*head == NULL)
+	{
+		mem->next = NULL;
+		*head = mem;
+		return (mem);
+	}
+	if (idx == 0)
+	{
+		mem->next = *head;
+		*head = mem;
+		return(mem);
+	}
+	temp = *head;
+	temp1 = *head;
+	check = insert_nodeint_helper(&temp, &temp1, idx);
+	if (check == 0)
+		return (0);
+	if (idx != 0)
+	{
+	mem->next = temp1;
+	temp->next = mem;
+	}
+	return (mem);
+}
+/**
+ * add_nodeint_end - function adding list node at the end
+ * @head: list head
+ * @n: data to add to the list
+ * Return: pointer to newly added node
+ */
+
 listint_t *add_nodeint_end(listint_t **head, const int n)
 {
 	listint_t *temp, *mem;
@@ -55,95 +122,69 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 		*head = mem;
 	else
 	{
-	while (temp->next)
-		temp = temp->next;
-	temp->next = mem;
+		while (temp->next)
+			temp = temp->next;
+		temp->next = mem;
 	}
 	return (mem);
 }
-int delete_nodeint_at_index(listint_t **head, unsigned int index)
-{
-	int check;
-	listint_t *temp, *temp1;
 
-	temp = *head;
-	temp1 = *head;
-	if (*head == 0)
-		return (-1);
-	if (index > 0)
-	{
-		check = delete_helper(&temp, &temp1, index);
-		if (check == -1)
-			return (-1);
-	}
-	else if (index == 0)
-	{
-		if ((*head)->next)
-		{
-		temp1 = temp->next;
-		*head = temp1;
-		free(temp);
-		}
-		else
-		{
-			free(*head);
-			*head = NULL;
-		}
-	}
-	else
-		return (-1);
-	return (1);
-}
-int delete_helper(listint_t **temp, listint_t **temp1, int index)
-{
-	int count, count1;
+/**
+ * print_listint - prints all the elements of the list
+ * @h: head pointer to the list
+ * Return: number of nodes
+ */
 
-	count = 0;
-	count1 = 0;
-        while (count < index - 1)
-        {
-                *temp = (*temp)->next;
-                count++;
-        }
-        while (count1 < index)
-        {
-		*temp1 = (*temp1)->next;
-		if (*temp1 == 0)
-			return (-1);
-		count1++;
-	}
-	if ((*temp1)->next == 0)
-	{
-		free(*temp1);
-		(*temp)->next = NULL;
-	}
-	else
-	{
-		(*temp)->next = (*temp1)->next;
-		free(*temp1);
-	}
-	return (1);
-}
 size_t print_listint(const listint_t *h)
 {
-	int count = 0;
+	size_t count;
 
-	if (h != NULL)
+	count = 0;
+	while(h)
 	{
-		while (h)
-		{
-			printf("%d\n", h->n);
-			h = h->next;
-			count++;
-		}
+		printf("%d\n", h->n);
+		h = h->next;
+		count++;
 	}
-
 	return (count);
 }
 
+/**
+ * free_listint2 - frees list
+ * @head: pointer to linked list head
+ */
+
+void free_listint2(listint_t **head)
+{
+	listint_t *tmp;
+
+	while(*head)
+	{
+		tmp = *head;
+		if ((*head)->next)
+		{
+			*head = tmp->next;
+			free(tmp);
+			tmp = NULL;
+		}
+		else
+		{
+			free(tmp);
+			*head = NULL;
+			tmp = NULL;
+		}
+	}
+}
+
+/**
+ * main - check the code
+ *
+ * Return: Always 0.
+ */
 int main(void)
 {
     listint_t *head;
+    listint_t *check;
 
     head = NULL;
     add_nodeint_end(&head, 0);
@@ -156,46 +197,19 @@ int main(void)
     add_nodeint_end(&head, 1024);
     print_listint(head);
     printf("-----------------\n");
-    delete_nodeint_at_index(&head, 5);
+    check = insert_nodeint_at_index(&head, 0, 4096);
+    //printf("%p\n", (void *)check);
     print_listint(head);
-    printf("-----------------\n");
-    delete_nodeint_at_index(&head, 0);
-    print_listint(head);
-    printf("-----------------\n");
-    delete_nodeint_at_index(&head, 0);
-    print_listint(head);
-    printf("-----------------\n");
-    delete_nodeint_at_index(&head, 0);
-    print_listint(head);
-    printf("-----------------\n");
-    delete_nodeint_at_index(&head, 0);
-    print_listint(head);
-    printf("-----------------\n");
-    delete_nodeint_at_index(&head, 0);
-    print_listint(head);
-    printf("-----------------\n");
-    delete_nodeint_at_index(&head, 0);
-    print_listint(head);
-    printf("-----------------\n");
-    delete_nodeint_at_index(&head, 0);
-    printf("-----------------\n");
-    delete_nodeint_at_index(&head, 0);
-    printf("-----------------\n");
-    delete_nodeint_at_index(&head, 0);
-    printf("-----------------\n");
-    delete_nodeint_at_index(&head, 0);
-    printf("-----------------\n");
-    delete_nodeint_at_index(&head, 0);
-    printf("-----------------\n");
-    delete_nodeint_at_index(&head, 0);
-    printf("-----------------\n");
-    delete_nodeint_at_index(&head, 0);
-    printf("-----------------\n");
-    delete_nodeint_at_index(&head, 0);
-    printf("-----------------\n");
-    delete_nodeint_at_index(&head, 0);
-    printf("-----------------\n");
-    delete_nodeint_at_index(&head, 0);
+    if (check == NULL)
+            printf("(nil)\n");
+    else
+    	printf("Running\n");
+    free_listint2(&head);
+    printf("head: NULL\n");
+    check = insert_nodeint_at_index(&head, 0, 4096);
+    insert_nodeint_at_index(&head, 0, 4086);
+    insert_nodeint_at_index(&head, 1, 4076);
+    insert_nodeint_at_index(&head, 1, 4066);
     print_listint(head);
     return (0);
 }
