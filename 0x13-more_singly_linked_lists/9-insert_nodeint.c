@@ -7,7 +7,7 @@
  * @idx: index to insert the node
  * Return: Nothing
  */
-int insert_nodeint_helper(listint_t **temp,  listint_t **temp1,  unsigned int idx)
+int insert_nodeint_helper(listint_t **temp,  listint_t **tp,  unsigned int idx)
 {
 	unsigned int count;
 
@@ -25,9 +25,9 @@ int insert_nodeint_helper(listint_t **temp,  listint_t **temp1,  unsigned int id
 	count = 0;
 	while (count < idx)
 	{
-		if (*temp1)
+		if (*tp)
 		{
-			*temp1 = (*temp1)->next;
+			*tp = (*tp)->next;
 			count++;
 		}
 		else
