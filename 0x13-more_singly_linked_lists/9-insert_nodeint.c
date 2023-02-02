@@ -19,7 +19,7 @@ int insert_nodeint_helper(listint_t **temp,  listint_t **temp1,  unsigned int id
 			*temp = (*temp)->next;
 			count++;
 		}
-		if ((*temp)->next == 0)
+		else
 			return(0);
 	}
 	count = 0;
