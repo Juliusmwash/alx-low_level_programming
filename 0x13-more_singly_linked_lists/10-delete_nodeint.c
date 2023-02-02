@@ -15,8 +15,13 @@ int delete_helper(listint_t **temp, listint_t **temp1, unsigned int index)
 	count1 = 0;
         while (count < index - 1)
         {
+		if (*temp)
+		{
                 *temp = (*temp)->next;
-                count++;
+		count++;
+		}
+		else
+			return (-1);
         }
         while (count1 < index)
         {
