@@ -3,7 +3,7 @@
 /**
  * insert_nodeint_helper - performs necessary operations to enhance insertion
  * @temp: pointer to linked list
- * @temp1: pointer to linked list
+ * @tp: pointer to linked list
  * @idx: index to insert the node
  * Return: Nothing
  */
@@ -20,7 +20,7 @@ int insert_nodeint_helper(listint_t **temp,  listint_t **tp,  unsigned int idx)
 			count++;
 		}
 		else
-			return(0);
+			return (0);
 	}
 	count = 0;
 	while (count < idx)
@@ -63,7 +63,7 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 	{
 		mem->next = *head;
 		*head = mem;
-		return(mem);
+		return (mem);
 	}
 	temp = *head;
 	temp1 = *head;
