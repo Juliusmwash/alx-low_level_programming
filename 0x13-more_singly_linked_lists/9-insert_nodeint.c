@@ -46,7 +46,6 @@ int insert_nodeint_helper(listint_t **temp,  listint_t **temp1,  unsigned int id
 
 listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 {
-	//printf("head coming: %d\n", (*head)->n);
 	listint_t *temp, *mem, *temp1;
 	unsigned int check;
 
