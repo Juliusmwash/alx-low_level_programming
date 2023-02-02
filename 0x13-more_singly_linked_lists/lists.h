@@ -14,8 +14,8 @@
  */
 typedef struct listint_s
 {
-    int n;
-    struct listint_s *next;
+	int n;
+	struct listint_s *next;
 } listint_t;
 int _putchar(char);
 size_t print_listint(const listint_t *h);
@@ -36,6 +36,6 @@ size_t print_listint_safe(const listint_t *head);
 size_t looped_listint_count(listint_t *head);
 size_t free_listint_safe(listint_t **h);
 listint_t *find_listint_loop(listint_t *head);
-int insert_nodeint_helper(listint_t **temp, listint_t **temp1, unsigned int idx);
+int insert_nodeint_helper(listint_t **temp, listint_t **tp, unsigned int idx);
 
 #endif
