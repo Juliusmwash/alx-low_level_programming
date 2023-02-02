@@ -9,7 +9,7 @@
 
 int delete_helper(listint_t **temp, listint_t **temp1, unsigned int index)
 {
-	int count, count1;
+	unsigned int count, count1;
 
 	count = 0;
 	count1 = 0;
