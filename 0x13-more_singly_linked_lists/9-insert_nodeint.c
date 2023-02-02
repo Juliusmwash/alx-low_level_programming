@@ -4,6 +4,7 @@
  * insert_nodeint_helper - performs necessary operations to enhance insertion
  * @temp: pointer to linked list
  * @temp1: pointer to linked list
+ * @idx: index of where to insert listnode
  * Return: Nothing
  */
 int insert_nodeint_helper(listint_t **temp, listint_t **temp1, unsigned int idx)
