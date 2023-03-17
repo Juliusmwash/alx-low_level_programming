@@ -39,11 +39,11 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 			tmp->prev = tmp1;
 			return (tmp1);
 		}
-		/*else if (check == idx && tmp->next == NULL)
+		else if (check + 1 == idx)
 		{
 			tmp1 = add_dnodeint_end(h, n);
 			return (tmp1);
-		}*/
+		}
 		check += 1;
 		tmp = tmp->next;
 	}
