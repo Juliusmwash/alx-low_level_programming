@@ -2,7 +2,7 @@
 #include "lists.h"
 
 /**
- * sum-dlistint - finds sum of elements in the linked list
+ * sum_dlistint - finds sum of elements in the linked list
  * @head: head pointer of the linked list
  * Return: sum of the elements
  */
@@ -14,7 +14,7 @@ int sum_dlistint(dlistint_t *head)
 
 	tmp = head;
 	if (tmp == NULL)
-		return 0;
+		return (0);
 	while (tmp != NULL)
 	{
 		sum += tmp->n;
