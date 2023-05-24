@@ -31,9 +31,4 @@ fclean: clean oclean
 # Rule to force recompilation of all source files
 re: fclean all
 
-# Disable built-in rules and variables
-.SUFFIXES:
-
-# Phony targets
-.PHONY: all clean oclean fclean re
 
