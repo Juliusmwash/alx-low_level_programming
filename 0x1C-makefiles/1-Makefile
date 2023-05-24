@@ -1,0 +1,17 @@
+# Compiler to be used
+CC = gcc
+
+# .c files
+SRC = main.c school.c
+
+# Default rule
+all: school
+
+# Build the executable
+school: $(SRC)
+	$(CC) -o $@ $^
+
+# Clean rule to remove the executable
+clean:
+	rm -f school
+
