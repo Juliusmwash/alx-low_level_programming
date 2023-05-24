@@ -11,19 +11,8 @@ OBJ = $(SRC:.c=.o)
 NAME = school
 
 # Default rule
-all: $(NAME)
-
-# Build the executable
-$(NAME): $(OBJ)
-	@$(CC) $^ -o $@
-
-# Rule to compile main.c
-main.o: main.c
-	@$(CC) -c -o $@ $<
-
-# Rule to compile school.c
-school.o: school.c
-	@$(CC) -c -o $@ $<
+all: $(OBJ)
+         $(CC) $(OBJ) -o $(NAME)
 
 # Clean rule to remove the executable and object files
 clean:
