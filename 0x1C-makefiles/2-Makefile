@@ -12,7 +12,7 @@ NAME = school
 
 # Default rule
 all: $(OBJ)
-         $(CC) $(OBJ) -o $(NAME)
+	$(CC) $(OBJ) -o $(NAME)
 
 # Clean rule to remove the executable and object files
 clean:
