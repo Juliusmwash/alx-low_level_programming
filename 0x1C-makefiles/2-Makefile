@@ -15,21 +15,17 @@ all: $(NAME)
 
 # Build the executable
 $(NAME): $(OBJ)
-	@echo "gcc $^ -o $@"
 	@$(CC) $^ -o $@
 
 # Rule to compile main.c
 main.o: main.c
-	@echo "gcc -c -o $@ $<"
 	@$(CC) -c -o $@ $<
 
 # Rule to compile school.c
 school.o: school.c
-	@echo "gcc -c -o $@ $<"
 	@$(CC) -c -o $@ $<
 
 # Clean rule to remove the executable and object files
 clean:
-	@echo "Cleaning..."
 	@rm -f $(NAME) $(OBJ)
 
