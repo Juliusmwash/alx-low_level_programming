@@ -14,10 +14,7 @@ NAME = school
 RM = rm -f
 
 # Default rule
-all: $(NAME)
-
-# Build the executable
-$(NAME): $(OBJ)
+all: $(OBJ)
 	$(CC) $(OBJ) -o $(NAME)
 
 # Rule to clean Emacs and Vim temporary files and executable
