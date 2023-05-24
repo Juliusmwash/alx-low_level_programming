@@ -1,0 +1,21 @@
+# Makefile for school project
+
+CC = gcc
+CFLAGS = -Wall -Wextra
+
+SRCS = main.c school.c
+OBJS = $(SRCS:.c=.o)
+
+EXECUTABLE = school
+
+all: $(EXECUTABLE)
+
+$(EXECUTABLE): $(OBJS)
+	$(CC) $(CFLAGS) $(OBJS) -o $(EXECUTABLE)
+
+%.o: %.c
+	$(CC) $(CFLAGS) -c $< -o $@
+
+clean:
+	rm -f $(OBJS) $(EXECUTABLE)
+
