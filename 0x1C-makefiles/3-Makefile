@@ -1,0 +1,42 @@
+# Compiler to be used
+CC = gcc
+
+# Source files
+SRC = main.c holberton.c
+
+# Object files (derived from source files)
+OBJ = $(SRC:.c=.o)
+
+# Name of the executable
+NAME = school
+
+# Program to delete files
+RM = rm -f
+
+# Default rule
+all: $(NAME)
+
+# Build the executable
+$(NAME): $(OBJ)
+	$(CC) $(OBJ) -o $(NAME)
+
+# Rule to clean Emacs and Vim temporary files and executable
+clean:
+	$(RM) *~ .*~ $(NAME)
+
+# Rule to clean object files
+oclean:
+	$(RM) $(OBJ)
+
+# Rule to clean Emacs and Vim temporary files, executable, and object files
+fclean: clean oclean
+
+# Rule to force recompilation of all source files
+re: fclean all
+
+# Disable built-in rules and variables
+.SUFFIXES:
+
+# Phony targets
+.PHONY: all clean oclean fclean re
+
