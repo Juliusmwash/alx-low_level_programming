@@ -2,7 +2,7 @@
 CC = gcc
 
 # Source files
-SRC = main.c holberton.c
+SRC = main.c school.c
 
 # Object files (derived from source files)
 OBJ = $(SRC:.c=.o)
