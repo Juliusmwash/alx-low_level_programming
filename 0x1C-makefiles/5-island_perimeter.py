@@ -3,6 +3,8 @@
 
 
 def island_perimeter(grid):
+    """ Calculates island's perimeter """
+
     prmt = 0
     count = 0
     for lst in grid:
