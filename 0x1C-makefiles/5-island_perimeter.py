@@ -11,11 +11,12 @@ def island_perimeter(grid):
         for i in range(0, len(lst)):
             if lst[i] == 1:
                 prmt += 4
-                if lst[i + 1] == 1:
+                if i != len(lst) - 1:
+                    if lst[i + 1] == 1:
+                        prmt -= 1
+                if lst[i - 1] == 1 and i != 0:
                     prmt -= 1
-                if lst[i - 1] == 1:
-                    prmt -= 1
-                if count != 1 - len(lst):
+                if count != len(grid) - 1:
                     if grid[count + 1][i] == 1:
                         prmt -= 1
                 if count != 0:
