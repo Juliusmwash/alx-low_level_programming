@@ -1,0 +1,2345 @@
+[33mcommit 61e886d438e5feeb78d5254313ece21c38c63e0a[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Juliusmwash <cutejuliusmwash@gmail.com>
+Date:   Thu May 25 03:47:11 2023 +0300
+
+    Solve advanced task
+
+[33mcommit 48b7720b4406fd27ecc7cc684c8881df8261a5ff[m
+Author: Juliusmwash <cutejuliusmwash@gmail.com>
+Date:   Thu May 25 03:37:32 2023 +0300
+
+    Solve task 5
+
+[33mcommit 978c7368b2236b2c3cd32ba48dea4dfcb69f962e[m
+Author: Juliusmwash <cutejuliusmwash@gmail.com>
+Date:   Thu May 25 03:25:06 2023 +0300
+
+    Solve task 5
+
+[33mcommit 36b250ca32d49405683e02b39ec23f080cbcbd76[m
+Author: Juliusmwash <cutejuliusmwash@gmail.com>
+Date:   Thu May 25 03:17:44 2023 +0300
+
+    Solve task 5
+
+[33mcommit cb3f7303950079e589c25bdd0372d558ec058c40[m
+Author: Juliusmwash <cutejuliusmwash@gmail.com>
+Date:   Thu May 25 01:49:51 2023 +0300
+
+    Solve task 4
+
+[33mcommit 246afca1319bb989fcffc4e000f32620e5d5e6a8[m
+Author: Juliusmwash <cutejuliusmwash@gmail.com>
+Date:   Thu May 25 01:43:13 2023 +0300
+
+    Solve task 3
+
+[33mcommit e85178eefbda717e53205f1ae101c9ea224eeded[m
+Author: Juliusmwash <cutejuliusmwash@gmail.com>
+Date:   Thu May 25 01:42:10 2023 +0300
+
+    Solve task 3
+
+[33mcommit 88fc61857e651e1219fa1879c8f9dea1ea2412b3[m
+Author: Juliusmwash <cutejuliusmwash@gmail.com>
+Date:   Thu May 25 01:39:09 2023 +0300
+
+    Solve task 3
+
+[33mcommit db594540d09c99e76fd9b3cc1fd11c635ee4a487[m
+Author: Juliusmwash <cutejuliusmwash@gmail.com>
+Date:   Thu May 25 01:36:58 2023 +0300
+
+    Solve task 3
+
+[33mcommit a3002a02d83dfff80e75c215f0aa2866e3abbe99[m
+Author: Juliusmwash <cutejuliusmwash@gmail.com>
+Date:   Thu May 25 01:29:07 2023 +0300
+
+    Solve task 2
+
+[33mcommit c5ccdf9145e38d5ead2d545b7f4dcce48c708f62[m
+Author: Juliusmwash <cutejuliusmwash@gmail.com>
+Date:   Thu May 25 01:26:46 2023 +0300
+
+    Solve task 2
+
+[33mcommit 25dabdd720a366e7699c1b93faef8c18f7f85da2[m
+Author: Juliusmwash <cutejuliusmwash@gmail.com>
+Date:   Thu May 25 01:17:02 2023 +0300
+
+    Solve task 2
+
+[33mcommit 80d6f8ba9fe93a658321b0a06dbeca848454b68c[m
+Author: Juliusmwash <cutejuliusmwash@gmail.com>
+Date:   Thu May 25 01:13:55 2023 +0300
+
+    Solve task 2
+
+[33mcommit eeaae6bd3ad425880b07879519023f5e19c41f73[m
+Author: Juliusmwash <cutejuliusmwash@gmail.com>
+Date:   Thu May 25 00:42:58 2023 +0300
+
+    Solve task 1
+
+[33mcommit b70fe0819f907efd7a486575bf5b742074b41424[m
+Author: Juliusmwash <cutejuliusmwash@gmail.com>
+Date:   Thu May 25 00:34:33 2023 +0300
+
+    Solve task 0
+
+[33mcommit d73dfd588d0f8205b7f58c0e3ae97136afbf199e[m
+Author: Juliusmwash <cutejuliusmwash@gmail.com>
+Date:   Thu May 25 00:30:46 2023 +0300
+
+    Solve task 0
+
+[33mcommit b6c3a68e75c63ea371505e4b0ed5979d68f8fc71[m
+Author: Juliusmwash <cutejuliusmwash@gmail.com>
+Date:   Tue Apr 11 06:00:54 2023 +0300
+
+    0x1A-hash_tables
+
+[33mcommit 60b945b8199cc67cbdb32e93df9b090368db89d8[m
+Author: Juliusmwash <cutejuliusmwash@gmail.com>
+Date:   Tue Apr 11 05:27:16 2023 +0300
+
+    100-sorted_hash_table.c
+
+[33mcommit 5db1ace5f3f08ae19c232889949046e30c5b60d2[m
+Author: Juliusmwash <cutejuliusmwash@gmail.com>
+Date:   Mon Apr 10 14:55:42 2023 +0300
+
+    arrange files
+
+[33mcommit d63bf10ecc33b5be941e45d7260869c1e5759002[m
+Author: Juliusmwash <cutejuliusmwash@gmail.com>
+Date:   Mon Apr 10 14:47:47 2023 +0300
+
+    6-hash_table_delete.c
+
+[33mcommit 395ddd62b16c7bcd74ce1e57bb3b44614d93aa21[m
+Author: Juliusmwash <cutejuliusmwash@gmail.com>
+Date:   Mon Apr 10 14:29:50 2023 +0300
+
+    Solve task 5
+
+[33mcommit 5d1a95015245c62aac5f700831d27ffcd7bcc8b9[m
+Author: Juliusmwash <cutejuliusmwash@gmail.com>
+Date:   Mon Apr 10 14:07:21 2023 +0300
+
+    Fix error
+
+[33mcommit b79b8f6b64b64d97ef0899d012b52ed35d8aa744[m
+Author: Juliusmwash <cutejuliusmwash@gmail.com>
+Date:   Mon Apr 10 03:34:49 2023 +0300
+
+    100-sorted_hash_table.c
+
+[33mcommit 6a78e3064ce04d1db33e3b60f54833c8773c647e[m
+Author: Juliusmwash <cutejuliusmwash@gmail.com>
+Date:   Mon Apr 10 02:57:49 2023 +0300
+
+    3-hash_table_set.c
+
+[33mcommit ce9e0189cbc4ae10337cc3df80b597091db87322[m
+Author: Juliusmwash <cutejuliusmwash@gmail.com>
+Date:   Mon Apr 10 02:47:24 2023 +0300
+
+    3-hash_table_set.c
+
+[33mcommit fe1610bb411756a70f48462e9e89211b449aa6c6[m
+Author: Juliusmwash <cutejuliusmwash@gmail.com>
+Date:   Mon Apr 10 02:19:56 2023 +0300
+
+    Fix error
+
+[33mcommit d89aa5f15ab98a53a9a2427f3d0b43bb995f5f03[m
+Author: Juliusmwash <cutejuliusmwash@gmail.com>
+Date:   Mon Apr 10 01:03:28 2023 +0300
+
+    Fix errors
+
+[33mcommit a5f894bed68bf4efeecf9239bb3a30a778432b88[m
+Author: Juliusmwash <cutejuliusmwash@gmail.com>
+Date:   Mon Apr 10 00:53:58 2023 +0300
+
+    Fix an error
+
+[33mcommit 7a6426e62160dc0e9afbbf2cfe6987936ee7bc60[m
+Author: Juliusmwash <cutejuliusmwash@gmail.com>
+Date:   Sun Apr 9 23:02:03 2023 +0300
+
+    Fix error
+
+[33mcommit 1eed975ae1a19163c3c4f3a8967005e5a7558eb7[m
+Author: Juliusmwash <cutejuliusmwash@gmail.com>
+Date:   Sun Apr 9 22:55:26 2023 +0300
+
+    Fix error
+
+[33mcommit 89dd286c655b8a8c965daf6270958ee473de6975[m
+Author: Juliusmwash <cutejuliusmwash@gmail.com>
+Date:   Sun Apr 9 22:46:03 2023 +0300
+
+    Fix error
+
+[33mcommit 51ede56ce1a838f57dda4fd0a2138b4bad7be45f[m
+Author: Juliusmwash <cutejuliusmwash@gmail.com>
+Date:   Sun Apr 9 22:32:35 2023 +0300
+
+    Fix error
+
+[33mcommit 181ab5acf04423df6403375c7d93cf212239e084[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Sun Apr 9 22:21:27 2023 +0300
+
+    Fix error
+
+[33mcommit 5352ba6136cfc3c77ee9f4cd8d805207737342c8[m
+Author: Juliusmwash <cutejuliusmwash@gmail.com>
+Date:   Sun Apr 9 15:30:09 2023 +0300
+
+    Fix error
+
+[33mcommit b4c2d4d1d1af55c7dc89a3ec9aa48f0558a39626[m
+Author: Juliusmwash <cutejuliusmwash@gmail.com>
+Date:   Sat Apr 8 02:32:42 2023 +0300
+
+    Hash table project
+
+[33mcommit 81ec3840f5d66ad14a368ee7bf5a6a5c97dc567e[m
+Author: Juliusmwash <cutejuliusmwash@gmail.com>
+Date:   Tue Mar 21 05:42:16 2023 +0300
+
+    Solve advanced task3
+
+[33mcommit 1d36ea5ad331709592969943501456494e6eee83[m
+Merge: 7088a7d 07c7af9
+Author: Juliusmwash <cutejuliusmwash@gmail.com>
+Date:   Tue Mar 21 05:39:33 2023 +0300
+
+    merge
+
+[33mcommit 7088a7d27a4c8607a4365fda3c1e14faa621111f[m
+Author: Juliusmwash <cutejuliusmwash@gmail.com>
+Date:   Tue Mar 21 05:36:39 2023 +0300
+
+    Solve advanced task3
+
+[33mcommit 07c7af9f242710af71d74e8fa99566efc6bcd6cc[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Tue Mar 21 05:21:31 2023 +0300
+
+    Solve advanced task 1
+
+[33mcommit 9ab9403c027dc1f6070e1974e6e0d816f5ca837f[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Tue Mar 21 04:33:24 2023 +0300
+
+    Make it executable
+
+[33mcommit 07885b1848fb60bc5a2eb8afef392831ecb11b2d[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Tue Mar 21 04:27:43 2023 +0300
+
+    Solve task 2
+
+[33mcommit d1fd1bdde57059fd025adcb13ebe85d9c0b014a6[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Tue Mar 21 03:52:13 2023 +0300
+
+    Edit files
+
+[33mcommit e501a3d7fda33cd1e19c48230b79312a37561af8[m
+Author: Juliusmwash <cutejuliusmwash@gmail.com>
+Date:   Tue Mar 21 03:31:44 2023 +0300
+
+    Make files
+
+[33mcommit 0996f753b290e4c8bd9e2ca7865f198fc4b3e9c7[m
+Author: Juliusmwash <cutejuliusmwash@gmail.com>
+Date:   Tue Mar 21 03:23:06 2023 +0300
+
+    Start projects
+
+[33mcommit 70bd3058bab92cc0f594c40fc58b3d8e8f059bd5[m
+Author: Juliusmwash <cutejuliusmwash@gmail.com>
+Date:   Tue Mar 21 03:09:25 2023 +0300
+
+    Start project
+
+[33mcommit 911fdd7a1a6df4a44859a060fbbd07984166895b[m
+Author: Juliusmwash <cutejuliusmwash@gmail.com>
+Date:   Tue Mar 21 03:01:32 2023 +0300
+
+    Start project
+
+[33mcommit b534d99ecb2428df69cdb8568ba410730061c060[m
+Author: Juliusmwash <cutejuliusmwash@gmail.com>
+Date:   Tue Mar 21 02:42:08 2023 +0300
+
+    Start project
+
+[33mcommit 61e20fe0b82977d74457c58de3f1e29f301b3b3a[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Mar 17 05:32:36 2023 +0300
+
+    Solve advanced 3
+
+[33mcommit 008de5e4c79271702b6da24ab7fd12bd9ace3be5[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Mar 17 05:29:06 2023 +0300
+
+    Solve advanced 2
+
+[33mcommit b224f6521357ff6efadd14f84a192eaaf69e0b15[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Mar 17 05:26:43 2023 +0300
+
+    Solve advanced 1
+
+[33mcommit 1c8ef43fca3dbb5be54158a3ec13a7f85e889c52[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Mar 17 05:22:38 2023 +0300
+
+    Solve querry 9
+
+[33mcommit b12b13966b221ebdfa814510f0d7943f84a19b7c[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Mar 17 05:19:00 2023 +0300
+
+    Add a prototype
+
+[33mcommit 7b90aeb1d206daad670f85e299118bb9707e73a2[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Mar 17 05:16:45 2023 +0300
+
+    Solve querry 8
+
+[33mcommit 2cc6e93cc5ddf26dc3cf1763ceeb4bb4e7f15f0b[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Mar 17 05:13:35 2023 +0300
+
+    Solve querry 8
+
+[33mcommit fc98e1a005fdaafb9a3bd3486e6bf401cffcee20[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Mar 17 05:08:48 2023 +0300
+
+    Solve querry 8
+
+[33mcommit d1020e65f0c8810d63f1de3ec774a1ed7c249712[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Mar 17 04:58:53 2023 +0300
+
+    Solve querry 8
+
+[33mcommit e17659e8075bb53230d71b2e92041865638ecc35[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Mar 17 04:57:13 2023 +0300
+
+    Solve querry 8
+
+[33mcommit 1e39577acfd7e43ff38e5746941e117eecfce831[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Mar 17 04:48:31 2023 +0300
+
+    Solve querry 8
+
+[33mcommit 158ed6192790ef2fa6c924051aee08f92acbec38[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Mar 17 04:25:22 2023 +0300
+
+    Solve querry 8
+
+[33mcommit 293a9f837c2c21b2b3ff32353b392f7ddd91b7c2[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Mar 17 03:34:26 2023 +0300
+
+    Add a prototype
+
+[33mcommit 4c6dc3cda25616e97da76d3c2409677b20eaa7ed[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Mar 17 03:30:01 2023 +0300
+
+    Solve querry 7
+
+[33mcommit 954dad79a85645d8c742263bd2264f3de2b4d4d8[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Mar 17 03:27:05 2023 +0300
+
+    Solve querry 7
+
+[33mcommit 1cc75c22af35adeca0f1575c06d731a5b3799816[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Mar 17 03:18:34 2023 +0300
+
+    Add a prototype
+
+[33mcommit d3bd61bd047637a89f695bbe29e1c6dc256f560c[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Mar 17 03:16:57 2023 +0300
+
+    Solve querry 6
+
+[33mcommit f2eeb6b56eb09c648adb3f740fc422ef8e429d0d[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Mar 17 03:09:03 2023 +0300
+
+    Solve querry 6
+
+[33mcommit 7f8273d9aec7735b66edebd2b9e4cc057a449726[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Mar 17 02:49:02 2023 +0300
+
+    Add a prototype
+
+[33mcommit 3934c5b3f0e5ff82a01d57042d6e7d034452081f[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Mar 17 02:46:21 2023 +0300
+
+    Solve querry 5
+
+[33mcommit 10a3d2624f68b38905342ef44a025220870a4ff1[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Mar 17 02:11:59 2023 +0300
+
+    Add a prototype
+
+[33mcommit 0af83808aa6b536fd7f504e148daa11b12b0f2d6[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Mar 17 02:09:05 2023 +0300
+
+    Solve querry 4
+
+[33mcommit 036f7ccb3c4ce62a86c89e946a22915aefe536dd[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Mar 17 01:57:16 2023 +0300
+
+    Solve querry 4
+
+[33mcommit b8ea8fd2d1a4494ac31ed6e9a860800a4d796633[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Mar 17 01:53:38 2023 +0300
+
+    Solve querry 4
+
+[33mcommit b5c2350daf1178e33db200d46f942d3cab73fe81[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Mar 17 01:51:46 2023 +0300
+
+    Solve querry 4
+
+[33mcommit 9e1a41f4582600132776d48392460de315536c2a[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Mar 17 00:54:40 2023 +0300
+
+    Solve querry 4
+
+[33mcommit a3cd32f37026edc24e3fc6facdf017545e82206d[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Mar 17 00:47:46 2023 +0300
+
+    Solve querry 4
+
+[33mcommit e82b065dbc8e4b004ed4eec34192f6655ac916e2[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Mar 17 00:11:26 2023 +0300
+
+    Add a prototype
+
+[33mcommit 5fee8b508b596981f01d547d28260c2295a62730[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Mar 17 00:09:08 2023 +0300
+
+    Solve querry 3
+
+[33mcommit aea5157fcb327a021d53db8ef8ff158c06a12919[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Thu Mar 16 23:58:01 2023 +0300
+
+    Solve querry 3
+
+[33mcommit fbf15e9ef93efcc8a02b0524b7660ac5305d750e[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Thu Mar 16 23:42:37 2023 +0300
+
+    Add a prototype
+
+[33mcommit e5faf0f5c05ca2e4d3cf6c0c71c99038960e22b8[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Thu Mar 16 23:41:04 2023 +0300
+
+    Solve querry 2
+
+[33mcommit 1dfcfc080fbb02e14f408730be921f2bf2de39b5[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Thu Mar 16 23:37:17 2023 +0300
+
+    Add a prototype
+
+[33mcommit 3eecf97d20c7c137d0d065bebd3dccd8f46c2b94[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Thu Mar 16 23:34:23 2023 +0300
+
+    Solve querry 2
+
+[33mcommit 3cef45945d6d3edc0fa862e40506d95eaba30f1c[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Thu Mar 16 23:27:29 2023 +0300
+
+    Solve querry 1
+
+[33mcommit 65b497d569f985b87604a49dc5eb25092c3daeb1[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Thu Mar 16 23:12:17 2023 +0300
+
+    Solve querry 1
+
+[33mcommit 1ec25b327f246d343db20a76ff595efc42fce9b5[m
+Merge: 8febebc b8cc44f
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Thu Mar 16 23:09:14 2023 +0300
+
+    Merge branch 'master' of https://github.com/Juliusmwash/alx-low_level_programming
+
+[33mcommit 8febebc4ac4798664f65b3de70c9578f91565a37[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Thu Mar 16 23:08:07 2023 +0300
+
+    Start project
+
+[33mcommit b8cc44fcca9cc3dd15215e8db1552d7be60571a5[m
+Author: Juliusmwash <118174651+Juliusmwash@users.noreply.github.com>
+Date:   Fri Feb 10 02:34:47 2023 +0300
+
+    Update 101-password
+
+[33mcommit 7bacdd526e5c70bef06b9b3909cd96bb83c93ea9[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Feb 10 02:31:05 2023 +0300
+
+    Attempt
+
+[33mcommit bf294a2a18e15e4ac93fab4a18efbb1fdb10f265[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Thu Feb 9 02:50:02 2023 +0300
+
+    Done with testing
+
+[33mcommit 0a9a13239f1412c2c096e8a20758833492e0c9d5[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Wed Feb 8 04:34:20 2023 +0300
+
+    Third attempt
+
+[33mcommit 611c93544594ad9f2e2eba17b9688151bec4a9df[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Wed Feb 8 04:29:44 2023 +0300
+
+    Second attempt
+
+[33mcommit 043d645b576514b89e917b3e3f04f235739c2956[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Wed Feb 8 04:27:57 2023 +0300
+
+    Solve task 8
+
+[33mcommit a2b7766f045e4ff003352b4acea2e6f77f4f4457[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Wed Feb 8 04:21:41 2023 +0300
+
+    Solve task 6
+
+[33mcommit f10469354ba6d73c0092781dd64fea902088afed[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Wed Feb 8 04:17:45 2023 +0300
+
+    Solve task 5
+
+[33mcommit a18efcd48b7c075c58802e0b6e34d80d521264fa[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Wed Feb 8 04:13:31 2023 +0300
+
+    Solve task 4
+
+[33mcommit 7b3d09bdb62421616f8e1dcf291884052339e105[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Wed Feb 8 04:09:15 2023 +0300
+
+    Solving task 3.11
+
+[33mcommit ea69858ceb343b459a3159290d1958c5a4ab2fac[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Wed Feb 8 04:04:23 2023 +0300
+
+    Solving task 2.10
+
+[33mcommit 596ce24807ae6bf3619f82081fd8dec6ccd0fcf6[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Wed Feb 8 03:54:01 2023 +0300
+
+    Second attempt
+
+[33mcommit 49ce412f92499446180afaee915c760d8bf36903[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Wed Feb 8 03:41:39 2023 +0300
+
+    Edit main.h
+
+[33mcommit e7138c5e3831d378e33a9c204f023fdb8f0e5698[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Wed Feb 8 03:39:40 2023 +0300
+
+    Solve task 1.1
+
+[33mcommit ec300662df611e4439bef31d8109cdec470bd2aa[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Wed Feb 8 02:41:47 2023 +0300
+
+    Start project
+
+[33mcommit 913ae2198260ec1f853140f2a80f51f1aa24e2e0[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Feb 3 01:46:39 2023 +0300
+
+    Fix betty error
+
+[33mcommit 3c27bed554112bbdc46260c6a4a5d6bf904fd7b1[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Feb 3 01:40:14 2023 +0300
+
+    Fix betty error
+
+[33mcommit 11e505ddf121eaa80b1e0da486f65fbf23c284b8[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Feb 3 01:38:30 2023 +0300
+
+    Fix betty error
+
+[33mcommit d326624e930e0152b3633ae5e1bcb4651254befa[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Feb 3 01:34:42 2023 +0300
+
+    Fix betty error
+
+[33mcommit bb0f3e536586ca67980d59d08953e2c2e5de3449[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Feb 3 01:32:33 2023 +0300
+
+    Fix betty error
+
+[33mcommit d25e1b0ab1c2b4e434466c5649168bf2f4f7b054[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Feb 3 01:29:52 2023 +0300
+
+    Fix betty error
+
+[33mcommit ef1fcb997d3f45f74d4be82cc612f58ad90d781e[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Feb 3 01:24:05 2023 +0300
+
+    Fix betty error
+
+[33mcommit a8934d2fa7a53b26b8c3d4913c800c2a1f6829ed[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Feb 3 01:20:31 2023 +0300
+
+    Fix betty error
+
+[33mcommit a7ad51deb2301616b4542038ca416e3e53366a48[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Feb 3 01:15:47 2023 +0300
+
+    Fix betty error
+
+[33mcommit a9a9620c8aed21f23223416fa26f287621f8ba29[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Thu Feb 2 14:11:11 2023 -0800
+
+    Add a prototype
+
+[33mcommit 81efbabfd9f7eb4db9fb29b639707e8ac1ff2c49[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Feb 3 01:06:38 2023 +0300
+
+    Edit 0-print_listint.c
+
+[33mcommit 42681492c20196c5b863b4f953596539e8174199[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Thu Feb 2 23:37:31 2023 +0300
+
+    Edit 10-delete_nodeint.c
+
+[33mcommit 9faaf36b155362771522d8af6c2523aee9f031ae[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Thu Feb 2 23:07:56 2023 +0300
+
+    Edit 10-delete_nodeint.c
+
+[33mcommit 357e5f9b715a5b8816c978b7f29a271f3050f1f1[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Thu Feb 2 22:36:59 2023 +0300
+
+    Refresh all
+
+[33mcommit 1f6942fcc248fd203a66ab79547d63ed36425fe7[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Thu Feb 2 22:34:31 2023 +0300
+
+    Edit 10-delete_nodeint.c
+
+[33mcommit 88b6e4aa1e800c9f99cebf5c3c94b981d9badb28[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Thu Feb 2 22:27:06 2023 +0300
+
+    Edit 9-insert_nodeint.c
+
+[33mcommit 61d8aff49d7a39ab6f68aa8ff64119e6f39e49bb[m
+Author: Juliusmwash <118174651+Juliusmwash@users.noreply.github.com>
+Date:   Thu Feb 2 21:55:43 2023 +0300
+
+    Update 9-insert_nodeint.c
+
+[33mcommit c7a1b4b66b4bc7d4e452466bf9c1c062e3a308cf[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Thu Feb 2 21:47:50 2023 +0300
+
+    Edit 7-get_nodeint.c
+
+[33mcommit 8f7f1ad677620e7986044c97903d61317bea02ff[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Thu Feb 2 21:43:43 2023 +0300
+
+    Edit 7-get_nodeint.c
+
+[33mcommit 44f1e90e71849a8a355b27fa10153529901ef373[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Thu Feb 2 21:40:03 2023 +0300
+
+    Edit 6-pop_listint.c
+
+[33mcommit 63a5abdba115d78d7a381057a12afe0a2dd516ed[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Thu Feb 2 21:34:59 2023 +0300
+
+    Recommit all
+
+[33mcommit 9acddfc470e7b0292c71d7290f09d1106f36d57a[m
+Author: Juliusmwash <118174651+Juliusmwash@users.noreply.github.com>
+Date:   Thu Feb 2 21:16:33 2023 +0300
+
+    Update 9-insert_nodeint.c
+
+[33mcommit 74877fd87f7a7681566d87e2fb90e83361c7bcd2[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Thu Feb 2 20:58:03 2023 +0300
+
+    Edit 9-insert_nodeint.c
+
+[33mcommit 31ef2b8226693b9da81e0216ef70e8d1044fdc8d[m
+Merge: 6b2972c 42f4e63
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Thu Feb 2 20:54:07 2023 +0300
+
+    Merge remote-tracking branch 'refs/remotes/origin/master'
+
+[33mcommit 6b2972cf0b15a19111c36ea638fbc57f3dd2980e[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Thu Feb 2 20:28:03 2023 +0300
+
+    Edit test.c
+
+[33mcommit 42f4e63540ccc179e221f59f92114c642a7db3e5[m
+Author: Juliusmwash <118174651+Juliusmwash@users.noreply.github.com>
+Date:   Thu Feb 2 17:23:54 2023 +0300
+
+    Update 9-insert_nodeint.c
+
+[33mcommit b593b69ee9db124a7a762278ad7b9410c19b237d[m
+Author: Juliusmwash <118174651+Juliusmwash@users.noreply.github.com>
+Date:   Thu Feb 2 17:21:28 2023 +0300
+
+    Update 9-insert_nodeint.c
+
+[33mcommit 291749421273b2fab16f2122853c8fa91efe54b8[m
+Author: Juliusmwash <118174651+Juliusmwash@users.noreply.github.com>
+Date:   Thu Feb 2 17:20:20 2023 +0300
+
+    Update 9-insert_nodeint.c
+
+[33mcommit 048d56d4d15ae06355f23e6ba2b06ddc6828e6da[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Thu Feb 2 17:18:25 2023 +0300
+
+    Edit 9-insert_nodeint.c
+
+[33mcommit e0ce9199289ffa7c4e435ea386b683b2bc1d78f2[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Thu Feb 2 16:10:57 2023 +0300
+
+    Edit 5-free_listint2.c
+
+[33mcommit 0078ab6bc93aeb16e769a0f838f4fe6e12246c21[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Thu Feb 2 15:50:41 2023 +0300
+
+    Add a prototype
+
+[33mcommit 14484b005857d73560a627ab550d7cae16883a70[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Thu Feb 2 15:03:39 2023 +0300
+
+    Edit 9-insert_nodeint.c
+
+[33mcommit 5303ecde2e7e78ccd2394e9da83230d3718edebd[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Thu Feb 2 03:48:37 2023 +0300
+
+    Make fun and add a proto
+
+[33mcommit 271b24990221cd7aa4c42d048bba94a6c51651c3[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Thu Feb 2 03:46:23 2023 +0300
+
+    Edit 101-print_listint_safe.c
+
+[33mcommit d2f659dcd7663226899ba95be86be34922f47d1d[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Thu Feb 2 03:45:05 2023 +0300
+
+    Make func and proto
+
+[33mcommit 8e26d42ccd7a1dd1b988ec4c63a447aa134ef1f6[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Thu Feb 2 03:41:59 2023 +0300
+
+    Add func and proto
+
+[33mcommit 91a7783b7663691dc21e13870e576f29341854b6[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Thu Feb 2 03:38:21 2023 +0300
+
+    Make a function and add a prototype
+
+[33mcommit ce7675536d4e6117d36a6d4e92c12384214e3df6[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Thu Feb 2 03:22:11 2023 +0300
+
+    Make a function and add a prototype
+
+[33mcommit fba6de8c34cec2a6621f6851a58d0b07fa5d7b40[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Thu Feb 2 01:50:05 2023 +0300
+
+    Make a function and add a prototype
+
+[33mcommit ebdcaae96d01f69ccf4d4ee2c4b51125fffe6c5e[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Thu Feb 2 01:39:40 2023 +0300
+
+    Edit 7-get_nodeint.c
+
+[33mcommit 5244aa95cd85a59f6fc69b71c68ffd193e9799cd[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Thu Feb 2 01:36:39 2023 +0300
+
+    Make 7-get_nodeint.c
+
+[33mcommit 22274dadb34c4bea15dcff57d8d420c1956a0c98[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Thu Feb 2 01:10:50 2023 +0300
+
+    Make 6-pop_listint.c
+
+[33mcommit cf35a01e2333adec6028f9329acc45150fcfbdff[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Thu Feb 2 01:10:02 2023 +0300
+
+    Add prototypes
+
+[33mcommit b2c536d390dc0165e5d35ab6ba603249a95c9d57[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Thu Feb 2 00:49:44 2023 +0300
+
+    Make 5-free_listint2.c
+
+[33mcommit 919ed51c583109cec0914e831232f9773862b761[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Thu Feb 2 00:07:17 2023 +0300
+
+    Add prototypes and functions
+
+[33mcommit 412df6350973303e0c96ce59374c996f2dd3008d[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Wed Feb 1 23:47:48 2023 +0300
+
+    Add functions and prototypes
+
+[33mcommit 5e103d1b549b8d75db79e06cbdad46bde5613072[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Wed Feb 1 23:23:05 2023 +0300
+
+    Make 1-listint_len.c
+
+[33mcommit dd8b12495aab10db5681053f94a7d7ebf83ccbe9[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Wed Feb 1 23:09:30 2023 +0300
+
+    Make 0-print_listint.c
+
+[33mcommit 0e4da8a6a8261bac86f2fa7d9435d661604927dc[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Wed Feb 1 22:52:19 2023 +0300
+
+    Edit lists.h
+
+[33mcommit 82c18b8dcb3bfee66d7b9ebf4d511f9f789f19b9[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Wed Feb 1 22:38:01 2023 +0300
+
+    Add prototypes and description to functions
+
+[33mcommit bfcdc8fa714b2d59d864e69561ca47844d903086[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Wed Feb 1 22:18:44 2023 +0300
+
+    Edit test.c
+
+[33mcommit 7039e4554e4ca3ac23cb64b0901c8ddfdfcc35e9[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Wed Feb 1 22:02:40 2023 +0300
+
+    Modify 3-add_nodeint_end.c
+
+[33mcommit 215e91b33ab9c4d1f3def00bcc3ac1305411dfe4[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Wed Feb 1 21:58:58 2023 +0300
+
+    Make 3-add_nodeint_end.c
+
+[33mcommit 4c070433f5727b5dc36c91cf44f6080085568397[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Wed Feb 1 21:29:36 2023 +0300
+
+    Modify
+
+[33mcommit 15962a758b128b6821e044a355d33961293ee366[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Wed Feb 1 21:24:36 2023 +0300
+
+    Modify 10-delete_nodeint.c
+
+[33mcommit de9d4c3c289b49321cf18c89959a5779b3c7f4eb[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Wed Feb 1 21:17:40 2023 +0300
+
+    Modify 10-delete_nodeint.c
+
+[33mcommit 1a50a6783ea62917f1de48eb391ae1544d82e2c4[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Wed Feb 1 21:06:05 2023 +0300
+
+    Modify deleHelper.c
+
+[33mcommit 3665091534b882536ff6080024ebf30a14cf46b1[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Wed Feb 1 20:48:15 2023 +0300
+
+    Make deleHelper.c
+
+[33mcommit 4e5862f1883d8a7b5a2949d19304cb8bc6af3474[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Wed Feb 1 19:47:32 2023 +0300
+
+    Fix 10-delete_nodeint.c
+
+[33mcommit a197110ce5564ae4ad49a49367788e99ab4c4950[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Wed Feb 1 19:30:27 2023 +0300
+
+    Edit test.c
+
+[33mcommit 96a2821e029238f6216aa8116113d5cbede66465[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Wed Feb 1 19:21:38 2023 +0300
+
+    Edit test.c
+
+[33mcommit 5f3b275538e7a761690611fc44002cd1a088ea11[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Wed Feb 1 18:28:20 2023 +0300
+
+    Testing
+
+[33mcommit 59bbac1475e47dc1267a13e90ad92bdf5b50a436[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Wed Feb 1 16:54:14 2023 +0300
+
+    Start project
+
+[33mcommit 9961278ba8a579a397f089fbf4468bcf82b97489[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Tue Jan 31 05:47:25 2023 +0300
+
+    101-hello_holberton.asm
+
+[33mcommit 4e2edefe617770a19c17eb33075c0e327581894a[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Tue Jan 31 05:43:04 2023 +0300
+
+    Make file and add a prototype
+
+[33mcommit 267a4f78c180d8aeeae7796478c44775af93a219[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Tue Jan 31 05:36:27 2023 +0300
+
+    Make file and add a prototype
+
+[33mcommit 88fe9941bf8584b38c2e9244b9a2efe28a144b69[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Tue Jan 31 05:31:57 2023 +0300
+
+    Add a prototype
+
+[33mcommit 06aebcc0a9e9ed5be704901cb4185c70e6f28f90[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Tue Jan 31 05:29:37 2023 +0300
+
+    Make 3-add_node_end.c
+
+[33mcommit 36ce2c91402819bc7bd0c50ed74ef1bc4e8057ce[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Tue Jan 31 05:02:22 2023 +0300
+
+    Fix error
+
+[33mcommit 24b8e9f8887b685c15722857b4573623908a67ad[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Tue Jan 31 04:59:58 2023 +0300
+
+    Fix error
+
+[33mcommit c9c9c06e4ebfcec4843bf63fa972057110e1082d[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Tue Jan 31 04:53:59 2023 +0300
+
+    Fix an error
+
+[33mcommit 74cc7e5828400bb754f5c8057aff6746955ccef5[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Tue Jan 31 04:50:57 2023 +0300
+
+    Fix an error
+
+[33mcommit e8ead5f5365c0d83ced54afa520b457cd3bdb214[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Tue Jan 31 04:46:30 2023 +0300
+
+    Fix
+
+[33mcommit bc725589fb19d3e9b486339983faf6fd3576d2cf[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Tue Jan 31 04:39:09 2023 +0300
+
+    Make and add a prototype
+
+[33mcommit da35f59c65013af5eb4842daa8c87cb3555c8a66[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Tue Jan 31 03:34:56 2023 +0300
+
+    Fix error
+
+[33mcommit 49a119cf114d6721ba8077dc442dd951fc8b600b[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Tue Jan 31 03:27:48 2023 +0300
+
+    Add a prototype
+
+[33mcommit d1022caf75fded0716a90a5cef2ae69d0594b308[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Tue Jan 31 03:26:27 2023 +0300
+
+    Make 1-list_len.c
+
+[33mcommit 139af6fdb163df2ad7f951d91cc650ace596a737[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Tue Jan 31 03:07:16 2023 +0300
+
+    Edit 0-print_list.c
+
+[33mcommit a0f9a270a4e4e47c8ca985c6aa5c7ca98b6cdc3a[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Tue Jan 31 02:58:13 2023 +0300
+
+    Edit 0-print_list.c
+
+[33mcommit 962bc21455d94ef16c2201b65d4e95d9b3590d32[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Tue Jan 31 02:56:00 2023 +0300
+
+    Edit 0-print_list.c
+
+[33mcommit 2f7753a839206fa620d6244ece204e5694544d9d[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Tue Jan 31 02:54:08 2023 +0300
+
+    Edit 0-print_list.c
+
+[33mcommit 832ff04cb2cf22f1907a57cc6efc4b21005a5887[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Tue Jan 31 02:48:17 2023 +0300
+
+    Edit 0-print_list.c
+
+[33mcommit 3a8469f6936e5c3e8fcfa4483372363d60a6c1a1[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Tue Jan 31 02:46:33 2023 +0300
+
+    Edit 0-print_list.c
+
+[33mcommit 806eaa4b0ac09f5cc0653708e107eb2e2780bfd5[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Tue Jan 31 02:44:41 2023 +0300
+
+    Edit 0-print_list.c
+
+[33mcommit 37e51f4aa8fedb425f27e38cc661f4ec1f646835[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Tue Jan 31 02:38:49 2023 +0300
+
+    Correct error
+
+[33mcommit cd0f4f4caf2fe4ff5e1c0ac14f7fbe0f70afa9cb[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Tue Jan 31 02:31:11 2023 +0300
+
+    Edit lists.h
+
+[33mcommit 47c076a1536fe3918f67074ff1f7fa9c58b088f0[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Tue Jan 31 02:27:10 2023 +0300
+
+    Edit lists.h
+
+[33mcommit 73e3eb8a1017304a40d3beeae1cac7f0e1762c19[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Tue Jan 31 02:19:56 2023 +0300
+
+    Add a readme.md file
+
+[33mcommit 6bbe645cc8997cc41732a007fc8fc5f6d258d229[m
+Author: root <root@Julius.localdomain>
+Date:   Tue Jan 31 02:12:57 2023 +0300
+
+    Start the project
+
+[33mcommit 7b5c8e951418760e8c49ba96c6dc11d3c084becd[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Thu Jan 26 02:26:32 2023 +0300
+
+    Add some prototypes
+
+[33mcommit 01900fae5e2a37a4b2f2417067ef6316865d8d84[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Mon Jan 23 05:49:32 2023 +0300
+
+    Third commit
+
+[33mcommit f5a5fa833d187dbd117f3f6b077f988b8698a3f6[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Mon Jan 23 05:46:48 2023 +0300
+
+    Third commit
+
+[33mcommit 5de87886868a4e12066399ba2b661a06ed6cbcdb[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Mon Jan 23 05:43:27 2023 +0300
+
+    Second commit
+
+[33mcommit 39387169a4d846757177c0fc016a6e0ee0f3a9aa[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Mon Jan 23 05:36:15 2023 +0300
+
+    Third commit
+
+[33mcommit 685a549f9956c78f3fc701f1ec835d0da7416b98[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Mon Jan 23 05:33:18 2023 +0300
+
+    Make 3-print_all.c
+
+[33mcommit 26056bad3de10a91aea8db2d28e33dfbeecc8602[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Sun Jan 22 18:15:10 2023 -0800
+
+    Sixth commit
+
+[33mcommit 0c0c6a74eea75825a93849b55df52e82bc128489[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Sun Jan 22 18:10:18 2023 -0800
+
+    Fifthe commit
+
+[33mcommit 6c586833fcbc7dd9f2af8e703fcde9a6bf1e0f71[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Sun Jan 22 17:57:47 2023 -0800
+
+    Seventeenth commit
+
+[33mcommit eab1ab9df99e1d4a54807f05c4402b0084a7b04f[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Sun Jan 22 17:54:42 2023 -0800
+
+    Sixteenth commit
+
+[33mcommit 648de1896cefb3be64605abd68ef150783dabb6f[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Sun Jan 22 17:47:00 2023 -0800
+
+    fourteenth commit
+
+[33mcommit 036be3d12a8f114f9fcb4ffeeec56468cc889f5b[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Sun Jan 22 17:44:50 2023 -0800
+
+    Thirteenth commit
+
+[33mcommit 2f51c045ebceeddb87bebc2f6182d8144d62c693[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Sun Jan 22 17:41:30 2023 -0800
+
+    Third commit
+
+[33mcommit 269f6df05ee688cf00c844e175e74c496fd190a5[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Sun Jan 22 17:35:30 2023 -0800
+
+    Second commit
+
+[33mcommit 28767a562b26990cb729f5810d5c93ade882b589[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Sun Jan 22 17:31:03 2023 -0800
+
+    Make 2-print_strings.c
+
+[33mcommit 6fdebcfa09cd1e3fd0e77fb17a6087060915a534[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Sun Jan 22 17:06:59 2023 -0800
+
+    Twelfth commit
+
+[33mcommit b161ca24fcfb1ce6d69d558ab833d5cc60a99255[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Sun Jan 22 17:03:28 2023 -0800
+
+    Eleventh commit
+
+[33mcommit b2bd8fb92b10f0754556e65747d24fb070c7a2bb[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Sun Jan 22 17:00:09 2023 -0800
+
+    Tenth commit
+
+[33mcommit 4ba4fbcf4ea5a3602a2b27fefbd4af66d2e18b68[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Sun Jan 22 16:57:42 2023 -0800
+
+    Nineth commit
+
+[33mcommit dfc09f2e8c8cdacb67219a3e14bdc25d831ce6b9[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Sun Jan 22 16:51:42 2023 -0800
+
+    Make variadic_functions.h
+
+[33mcommit c3cdd6466a882f992951cbf83d0e3eababb8bc37[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Sun Jan 22 16:48:42 2023 -0800
+
+    Eighth commit
+
+[33mcommit a3e868bb2e537bea5b114759f863c892b7315ae4[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Sun Jan 22 16:40:21 2023 -0800
+
+    Seventh commit
+
+[33mcommit e3735f02f8fa70ef6290ea68d35247fb8538928b[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Sun Jan 22 16:37:46 2023 -0800
+
+    Sixth commit
+
+[33mcommit 17ba104a03448d7fc33a2cd587df41d3b344a945[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Sun Jan 22 16:32:50 2023 -0800
+
+    Fifth commit
+
+[33mcommit 2dde4d4c10e43bbb2c9d5b1e7d407e21b5daf2a7[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Mon Jan 23 03:24:16 2023 +0300
+
+    test.c
+
+[33mcommit 25aae1b602e7f8f5abe4bfc5f1e9d587bd178cba[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Sun Jan 22 16:18:49 2023 -0800
+
+    Fouth commit
+
+[33mcommit 2bf3f74d2cb0234e4efe0ac7c13cdba6b078a734[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Sun Jan 22 16:02:50 2023 -0800
+
+    Third commit
+
+[33mcommit 425208637065cba6095d468a4f62c33d3494a03c[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Sun Jan 22 15:59:52 2023 -0800
+
+    Second commit
+
+[33mcommit 01a2acbece73cc312e92a4d01bb2a2ba4a22f74e[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Sun Jan 22 15:57:39 2023 -0800
+
+    Make 1-print_numbers.c
+
+[33mcommit 975df5183977931c4c4660f7347e62b0412171c2[m
+Merge: fd787d3 de90ca6
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Sun Jan 22 15:22:51 2023 -0800
+
+    Merge branch 'master' of https://github.com/Juliusmwash/alx-low_level_programming
+
+[33mcommit fd787d3e2884ea0d02cd24db3395b93af4834191[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Sun Jan 22 15:22:41 2023 -0800
+
+    Start of project variadic functions
+
+[33mcommit de90ca64b954a873ec82fcf744bdddf7f732862a[m
+Merge: 30d2cce c836a47
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Sat Jan 21 02:00:14 2023 +0300
+
+    Merge branch 'master' of https://github.com/Juliusmwash/alx-low_level_programming
+
+[33mcommit 30d2cce77694f71b489b8df8e2101bb2da16be33[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Sat Jan 21 01:55:13 2023 +0300
+
+    Make 100-main_opcodes.c
+
+[33mcommit bef2c67af9c618c6907b23ce131d0b8ee5121344[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Sat Jan 21 01:52:01 2023 +0300
+
+    Make 100-main_opcodes.c
+
+[33mcommit c836a47d33b5bfe9e5dc3f959bcb526fb393b620[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Jan 20 14:27:02 2023 -0800
+
+    3-main.c
+
+[33mcommit 1c11ed88ad04f457aacf5ad89fc162b8f749749a[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Jan 20 14:23:17 2023 -0800
+
+    Commit seventh
+
+[33mcommit e85d2d40997e29afc1892f2e74e9e20c6912f9ec[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Jan 20 14:16:42 2023 -0800
+
+    Seventh commit
+
+[33mcommit 953a657633a749a27fdaea10481eb069b8b54af0[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Jan 20 14:15:23 2023 -0800
+
+    Sixth commit
+
+[33mcommit 42409b6bd80cacbddc45a5d535fc5249510ec92f[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Sat Jan 21 00:44:23 2023 +0300
+
+    Commit fifth
+
+[33mcommit c23a55f5c385fd75d570e1f15151380ae8fe5c1c[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Sat Jan 21 00:42:36 2023 +0300
+
+    Commit fifth
+
+[33mcommit dd05bbbfae59a8984e0b5766c9f34bc6c7185793[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Sat Jan 21 00:41:12 2023 +0300
+
+    Commit fifth
+
+[33mcommit fdb489b88f3c391b82a3ee5d98864356766868e3[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Sat Jan 21 00:39:20 2023 +0300
+
+     Commit fifth
+
+[33mcommit 1e6e97a617b3c70ff5b5296be448c1b09b5f2c2d[m
+Author: Juliusmwash <118174651+Juliusmwash@users.noreply.github.com>
+Date:   Sat Jan 21 00:24:43 2023 +0300
+
+    Update 3-get_op_func.c
+
+[33mcommit 15da9c99a7289110cba81c49a2016fc286e74314[m
+Author: Juliusmwash <118174651+Juliusmwash@users.noreply.github.com>
+Date:   Sat Jan 21 00:23:18 2023 +0300
+
+    Update 3-main.c
+
+[33mcommit f371cf6b02e604bffa293667178df5005e8d709b[m
+Author: Juliusmwash <118174651+Juliusmwash@users.noreply.github.com>
+Date:   Sat Jan 21 00:22:34 2023 +0300
+
+    Update 3-get_op_func.c
+
+[33mcommit 660f8ae848231f445f73ef5d7a407aee387e3dec[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Sat Jan 21 00:12:51 2023 +0300
+
+    Fifth commit
+
+[33mcommit c64b5f73ca6c1af739df699fa288ba030f82be36[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Sat Jan 21 00:05:48 2023 +0300
+
+    Fourth commit
+
+[33mcommit 9accd6d71a26a3491ea315a1704a388e2b8473fa[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Jan 20 23:31:25 2023 +0300
+
+    Thitd commit
+
+[33mcommit a93a403192ef03af185d1ed765267ba6577a0da4[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Jan 20 23:24:53 2023 +0300
+
+    Third commit
+
+[33mcommit 31b69f6fc5c24b1a028e288008d13b22cc0212cd[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Jan 20 23:15:43 2023 +0300
+
+    Second commit
+
+[33mcommit 0174d332259ee98a55be459a34075f672ca9c97f[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Jan 20 22:58:24 2023 +0300
+
+    Second commit
+
+[33mcommit def888e1636a15df120e1c065506dd237dec5817[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Jan 20 16:52:04 2023 +0300
+
+    Fourth commit
+
+[33mcommit b9ea6299919851f1befa932e9bcaf96a32ddb054[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Jan 20 16:48:09 2023 +0300
+
+    Eighth commit
+
+[33mcommit 3f67f1735471073392f3896f4f1f11a7d63bd4c2[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Jan 20 16:42:18 2023 +0300
+
+    Seventh commit
+
+[33mcommit 59705586405a55c15c8169031db2ac02bfdc58aa[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Jan 20 16:39:35 2023 +0300
+
+    Sixth commit
+
+[33mcommit af6207e9eb93b62de7496a9932e052118fb34570[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Jan 20 16:35:19 2023 +0300
+
+    Fifth commit
+
+[33mcommit 900def2cbfebd1e1c6218603310e7a00ff8f8a8c[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Jan 20 16:24:30 2023 +0300
+
+    Fourth commit
+
+[33mcommit 45248f237d154cb5b41c6d0e098d73fbd038ddd9[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Jan 20 16:09:24 2023 +0300
+
+    Third commit
+
+[33mcommit 2c7d2c7af1c7ad60a50d1ffc8e85081afaf4d9fd[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Jan 20 16:04:50 2023 +0300
+
+    Third commit
+
+[33mcommit f19b606018b214ae3551eedc4f487215405c2fbc[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Jan 20 15:54:00 2023 +0300
+
+    Second commit
+
+[33mcommit 195a1f56bab1ee9938c8ddd22c1c56728cffb2e2[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Jan 20 15:46:42 2023 +0300
+
+    Add header into the file
+
+[33mcommit 89ab6dce4de1ad719ec362c90857a5970ca1ad63[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Jan 20 15:44:33 2023 +0300
+
+    Last commit
+
+[33mcommit 774cb221a913395bcf1541356ffffa7c1fc622ad[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Jan 20 15:41:53 2023 +0300
+
+    Tenth commit
+
+[33mcommit dbf6dd0ae43a97747364af1300bbdf10d18dc998[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Jan 20 15:35:01 2023 +0300
+
+    Nineth commit
+
+[33mcommit 509444b9834f806d9df4d75c6228992896fde5b8[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Jan 20 15:31:11 2023 +0300
+
+    Eighth commit
+
+[33mcommit 53e6aefade9f190ac9bfc3b5b097f5776a7a368c[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Jan 20 15:26:40 2023 +0300
+
+    Seventh commit
+
+[33mcommit 951d08dd80614bd7a302e771098ab8de46bfabc3[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Jan 20 15:21:45 2023 +0300
+
+    Sixth commit
+
+[33mcommit cf5f70457ccb2d62192f18756b357b1a7f039db0[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Jan 20 06:26:05 2023 +0300
+
+    Fifth commit
+
+[33mcommit 49acb984589b0a3812bc7ed9785d619df922833d[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Jan 20 06:11:53 2023 +0300
+
+    Fourth commit
+
+[33mcommit 0ea06cf47c3d115cbbd1406ddc555b019c05ac53[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Jan 20 06:09:24 2023 +0300
+
+    Third commit
+
+[33mcommit bd96cd12e50c62c66471f72da8f05131d7ea79e7[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Jan 20 05:59:04 2023 +0300
+
+    Make 3-main.c
+
+[33mcommit f1dcb200c2e53b16f1f4d2b57aeb66ae1a9f5ae0[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Jan 20 05:57:32 2023 +0300
+
+    Make 3-get_op_func.c
+
+[33mcommit 0d7099d77288098f69bb84288487b66bac15fa9b[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Jan 20 05:44:25 2023 +0300
+
+    Second commit
+
+[33mcommit a820edd276a10af62e958697905543e31da24b8c[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Jan 20 05:42:59 2023 +0300
+
+    Second commit
+
+[33mcommit 98e5f58ed20622f1a1e126956c57dbc33cd199a2[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Jan 20 05:30:16 2023 +0300
+
+    Make 3-op_functions.c
+
+[33mcommit 98a030748a100bb38af83c5ca135ee4f045420c4[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Jan 20 04:52:39 2023 +0300
+
+    Third commit
+
+[33mcommit 9db4f8a0b9f473dc97f2994ff5f17ca7233af4b1[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Jan 20 04:48:15 2023 +0300
+
+    Second commit
+
+[33mcommit accada70ce075c6c94f992b329318092dbe42980[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Jan 20 04:28:15 2023 +0300
+
+    Make 2-int_index.c
+
+[33mcommit 4584c9a472e935c356668d7f905f1b9ea8a7f267[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Jan 20 04:15:12 2023 +0300
+
+    Second commit
+
+[33mcommit 2a86f4bafadbc88ea4f0e6a309ea9f8e77bf5a05[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Jan 20 03:19:32 2023 +0300
+
+    Second commit for 1-array_iterator.c
+
+[33mcommit 94d3c0cdb1ee3ca1a945fc885161abd436658878[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Jan 20 03:14:19 2023 +0300
+
+    Make 1-array_iterator.c
+
+[33mcommit 8eadc9eeca2a950949cdaf4b21d21e12b37ca826[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Jan 20 03:01:57 2023 +0300
+
+    Second commit
+
+[33mcommit d669cfb58cb22d764c87914bbb71346b80acdaee[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Jan 20 03:00:49 2023 +0300
+
+    Make function_pointers.h
+
+[33mcommit de40e7cb31d3de36fe549636e88bb42ee2a52353[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Jan 20 02:47:59 2023 +0300
+
+    Make 0-print_name.c
+
+[33mcommit ee9a5f4c8d9e66830c34b7e928cb24d68003f470[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Jan 20 02:39:21 2023 +0300
+
+    Start the project function pointers
+
+[33mcommit b3a9df0f1a3248858655bebe4fb140168ca34e1a[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Wed Jan 18 04:31:52 2023 +0300
+
+    Make 5-free_dog.c
+
+[33mcommit 332fd0847d06b440af267310317d821e5cd1f3c6[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Wed Jan 18 04:22:51 2023 +0300
+
+    Add a prototype to dog.h
+
+[33mcommit 655158305de162248374600065f9de325830c092[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Wed Jan 18 04:20:10 2023 +0300
+
+    Correct error for 4-new_dog.c
+
+[33mcommit adcdc7801004f7714291653db5b446dd613fc571[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Wed Jan 18 04:15:42 2023 +0300
+
+    Add a prototype to dog.h
+
+[33mcommit 326bc6d07ec83ec7310983e3069033412fe9563f[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Wed Jan 18 04:14:12 2023 +0300
+
+    Make 4-new_dog.c
+
+[33mcommit 6c2020258eb7c2435c4672b4bedb7a0146d8e18e[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Wed Jan 18 03:54:47 2023 +0300
+
+    Second commit
+
+[33mcommit ed0cdb472e7ad0b9dd73c351fe62af6b94109017[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Wed Jan 18 03:52:16 2023 +0300
+
+    Use typedef
+
+[33mcommit c4c9d5583ab21c5c97c0d97e0bae96afb9cc3c22[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Wed Jan 18 03:43:22 2023 +0300
+
+    Fifth commit
+
+[33mcommit 55c402b2197986edc3e377fee6d3131cffb9ace3[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Wed Jan 18 03:38:15 2023 +0300
+
+    Fourth commit
+
+[33mcommit 5db6a24925a551ae5cfef18760f0a82271c4b9a0[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Wed Jan 18 03:32:29 2023 +0300
+
+    Third commit
+
+[33mcommit e8a6cfbdd122a3ea4dd7d687db91bd8e775ccd7a[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Wed Jan 18 03:10:54 2023 +0300
+
+    Third commit
+
+[33mcommit 66fb8057fa054ea0634c9b6bc1d090eec6f5ec6e[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Wed Jan 18 03:08:10 2023 +0300
+
+    Second commit
+
+[33mcommit ed3f6d3f46259a8d5ebcc87dc2e1edd3b060feaf[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Wed Jan 18 03:05:51 2023 +0300
+
+    Add a prototype to dog.h
+
+[33mcommit 86ad688adcf76efa87e6e684db73b5796dedfc15[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Wed Jan 18 03:05:04 2023 +0300
+
+    Make 2-print_dog.c
+
+[33mcommit 3f593814206cfd91ea6197314cffccce4b21579b[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Wed Jan 18 02:44:13 2023 +0300
+
+    Fourth commit
+
+[33mcommit b5e8ca7361b739b0adecb3091c8baab34e81da5a[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Wed Jan 18 02:42:17 2023 +0300
+
+    Third commit
+
+[33mcommit f54532f445bc751771503cf345ca870091ef59ae[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Wed Jan 18 02:39:41 2023 +0300
+
+    Second commit
+
+[33mcommit d455a3a5adb09d00e23d066a5b643c7e8393fb97[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Wed Jan 18 02:36:56 2023 +0300
+
+    Make 1-init_dog.c
+
+[33mcommit be89d2a50644810b8b0286fab1a7390cd47f33e7[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Wed Jan 18 02:35:55 2023 +0300
+
+    Add a prototype to dog.h
+
+[33mcommit 8ab0f6a94b974fed32b728ed5754284456cd955b[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Wed Jan 18 02:24:09 2023 +0300
+
+    Correct error
+
+[33mcommit 974d8f02e7298a0f4582767910d874141f36f2ed[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Wed Jan 18 02:18:46 2023 +0300
+
+    Correct error
+
+[33mcommit c6a110a0143edbf632cab434fc99779da50f13b0[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Wed Jan 18 02:16:32 2023 +0300
+
+    Correct errors
+
+[33mcommit 96cb2d7aa8c98a512f5b386853360c86dee94d35[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Wed Jan 18 02:06:37 2023 +0300
+
+    Correct error not losing hope
+
+[33mcommit d8dc351f1f528a578c2d978dfc4030ce24ceb777[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Wed Jan 18 02:03:36 2023 +0300
+
+    Correct error
+
+[33mcommit 14b0d35fac7e03e257072d6d982b25607d731911[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Wed Jan 18 02:00:51 2023 +0300
+
+    Correct error
+
+[33mcommit 6f4b8dd34fbf879be5774517bbdadfb7a105f8c7[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Wed Jan 18 01:58:21 2023 +0300
+
+    Correct error
+
+[33mcommit 81c25d0c03520ecadddbcfdbf0b311eae7b2e28f[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Wed Jan 18 01:49:57 2023 +0300
+
+    Change few codes in dog.h
+
+[33mcommit 6e4b35414a216aa1df98f27db6ba1d675181d9a0[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Wed Jan 18 01:45:22 2023 +0300
+
+    Add few statement to dog.h
+
+[33mcommit 6003e47ee8de37c4b8374f06167c5cc5ef67fc2b[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Wed Jan 18 01:41:12 2023 +0300
+
+    Make README.md file
+
+[33mcommit b45d34e5394b2025a0ecad038bcf40268c9e8929[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Wed Jan 18 01:40:29 2023 +0300
+
+    Make dog.h
+
+[33mcommit 6f57927d86b0e552970899e8307b9159307e7d0b[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Tue Jan 17 16:49:54 2023 +0300
+
+    Make 4-sum.h
+
+[33mcommit b46f21180fd7f337556ef8081ae2369d91f9261d[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Tue Jan 17 16:45:44 2023 +0300
+
+    Convert from function to macro
+
+[33mcommit eb4340c56e060fa5ed43c885095d4af92228ba34[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Tue Jan 17 16:38:51 2023 +0300
+
+    Make 3-function_like_macro.h
+
+[33mcommit 916ce5c880170ab87cf020744eb8bc9d5895090b[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Tue Jan 17 16:13:34 2023 +0300
+
+    Correct error (2)
+
+[33mcommit fdc3f357135043c2cb162408deef28a54babff34[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Tue Jan 17 16:11:18 2023 +0300
+
+    Clear a small errror
+
+[33mcommit 63bda2d13e7c9ca152a467b86817740f23028472[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Tue Jan 17 16:08:38 2023 +0300
+
+    Make 2-main.c
+
+[33mcommit 3f5e63624586551ce79d224519b1f696ece152d7[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Tue Jan 17 15:53:20 2023 +0300
+
+    Make 1-pi.h
+
+[33mcommit 8ac296b977586e3e1add3f38f10d887059bb5a41[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Tue Jan 17 15:47:04 2023 +0300
+
+    Clear a small error on 0-object_like_macro.h
+
+[33mcommit 12c4bc943399a8fbe9c3b279179b9a04ade18b57[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Tue Jan 17 15:39:05 2023 +0300
+
+    Make a README.md file
+
+[33mcommit 1dc20edcdd2544d74681a6e1320e3e284a175db8[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Tue Jan 17 15:31:10 2023 +0300
+
+    Make 0-object_like_macro.h
+
+[33mcommit 58702f2f42a2ee865c1527b8d417918b9302fcd7[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Mon Jan 16 13:13:29 2023 +0300
+
+    Correct 101-mul.c errors (7)
+
+[33mcommit 95f05d8ee75d4433ba673d0f378befc2aebbb027[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Sun Jan 15 14:15:24 2023 +0300
+
+    Correct 100-realloc.c errors (3)
+
+[33mcommit b32f8e45adc7165ac076017bca554e0a77eb5819[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Sun Jan 15 14:12:58 2023 +0300
+
+    Correct 100-realloc.c errors (3)
+
+[33mcommit 64a06f19fd68ade1368355f12b83aaf02e6a31c0[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Sun Jan 15 13:52:27 2023 +0300
+
+    Correct 100-realloc.c errors (2)
+
+[33mcommit 8c4f2b174534f9a25d253df7df6bbe9349fe3188[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Sun Jan 15 13:47:52 2023 +0300
+
+    Correct 100-realloc.c errors (1)
+
+[33mcommit ea106a041f39f849f32046cf99558cfaa2500cf6[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Sun Jan 15 13:23:51 2023 +0300
+
+    Make 100-realloc.c
+
+[33mcommit 6a9d9b6d067d6bc8924177ff5a9608e74ae43a7e[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Sun Jan 15 00:17:54 2023 +0300
+
+    Correct 3-array_range.c errors (4)
+
+[33mcommit ecde7eb73514a2edcb6f661949bf6c3d97697f74[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Sun Jan 15 00:02:36 2023 +0300
+
+    Correct 3-array_range.c errors (3)
+
+[33mcommit 260aca32db6f1aefa1fd87d9ae381f81f3240b48[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Sat Jan 14 23:53:43 2023 +0300
+
+    Make gh3-array_range.c
+
+[33mcommit a4f3da141591b3c719207059c8f537c797596683[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Sat Jan 14 23:32:08 2023 +0300
+
+    Correct 3-array_range.c errors (1)
+
+[33mcommit c6db4cdb4396f3541110acce364e1c11c42e3149[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Sat Jan 14 22:52:47 2023 +0300
+
+    Make 3-array_range.c
+
+[33mcommit 9330b9c8505b1ad05a271935cf91caca3fdcdb51[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Sat Jan 14 17:18:09 2023 +0300
+
+    Correct 2-calloc.c errors (4)
+
+[33mcommit 448ff6a515d01b9941997e022951597c334581c2[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Sat Jan 14 17:09:08 2023 +0300
+
+    Correct 2-calloc.c errors (3)
+
+[33mcommit 4ffa46d587c9ee6cdbd2955a1d8c9f95a6f72068[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Sat Jan 14 15:44:20 2023 +0300
+
+    Correct 2-calloc.c errors (1)
+
+[33mcommit d80dc4c17eade8de41d47fa005361febc4067bea[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Sat Jan 14 15:39:27 2023 +0300
+
+    Make 2-calloc.c
+
+[33mcommit f58a45c3d347d038e2471aa821d25d0baf17ac36[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Sat Jan 14 07:06:59 2023 +0300
+
+    Last modification on 1-string_nconcat.c
+
+[33mcommit 5a61a7c5cd2efb61822bbb0d4b81bda8216ace0a[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Sat Jan 14 06:49:53 2023 +0300
+
+    Modify 1-string_nconcat.c
+
+[33mcommit 43554b0c6dfdbfe409f12a44a506570abcacd730[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Sat Jan 14 06:39:02 2023 +0300
+
+    Modify 1-string_nconcat.c
+
+[33mcommit 3d174d119823560112429b419f8f58e9424b77c3[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Sat Jan 14 06:36:32 2023 +0300
+
+    Modify 1-string_nconcat.c
+
+[33mcommit 67364c8e6756d723fcb7788ded4d0f9cbeea88a8[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Sat Jan 14 06:12:59 2023 +0300
+
+    Modify 1-string_nconcat.c
+
+[33mcommit 93a8b91474ee9d43ef3d14c29205630127918316[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Sat Jan 14 06:10:10 2023 +0300
+
+    Modify 1-string_nconcat.c slightly
+
+[33mcommit d1517445f09696f1b7e5773c5bfc1465b189b529[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Sat Jan 14 05:58:18 2023 +0300
+
+    Modify 1-string_nconcat.c slightly
+
+[33mcommit 413fd61047e08339961735fa2449458d7434c5fa[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Sat Jan 14 05:56:55 2023 +0300
+
+    Modify 1-string_nconcat.c slightly
+
+[33mcommit cb1029bb9b6017dae773162c131e2d56d830d574[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Sat Jan 14 05:54:32 2023 +0300
+
+    Modify 1-string_nconcat.c slightly
+
+[33mcommit bdabb7b07e072f303fe08970ae52c77a5a746d05[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Sat Jan 14 05:49:41 2023 +0300
+
+    Change 1-string_nconcat.c slightly
+
+[33mcommit 793754604356a9f2c9343c3f7da047c7138ef4bf[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Sat Jan 14 05:48:14 2023 +0300
+
+    Make main.h
+
+[33mcommit c80c5b3955083c9297e7eb93dd3ae3fba5163326[m
+Author: Juliusmwash <118174651+Juliusmwash@users.noreply.github.com>
+Date:   Sat Jan 14 05:37:34 2023 +0300
+
+    Update main.h
+
+[33mcommit 40c58344efb25b41270eec81632bf76dd558badc[m
+Author: Juliusmwash <118174651+Juliusmwash@users.noreply.github.com>
+Date:   Sat Jan 14 05:34:39 2023 +0300
+
+    Create 101-mul.c
+
+[33mcommit fb4b7b1d9bc18fde0f7a81b058f27bf5a1b52316[m
+Author: Juliusmwash <118174651+Juliusmwash@users.noreply.github.com>
+Date:   Sat Jan 14 05:31:13 2023 +0300
+
+    Create 100-realloc.c
+
+[33mcommit 97f3e79d32295329bcd597b0cd06cfc083e3f9c2[m
+Author: Juliusmwash <118174651+Juliusmwash@users.noreply.github.com>
+Date:   Sat Jan 14 05:28:10 2023 +0300
+
+    Update 2-calloc.c
+
+[33mcommit 74db6c415768a29cafb0e12422ae28984da2af6a[m
+Author: Juliusmwash <118174651+Juliusmwash@users.noreply.github.com>
+Date:   Sat Jan 14 05:23:54 2023 +0300
+
+    Update main.h
+
+[33mcommit bbc90c94997142557a4c02ba6c9c16186d2c70cf[m
+Author: Juliusmwash <118174651+Juliusmwash@users.noreply.github.com>
+Date:   Sat Jan 14 05:20:52 2023 +0300
+
+    Update main.h
+
+[33mcommit 39975d24c69cf888c86ad46f6be9dc5bc0813f24[m
+Author: Juliusmwash <118174651+Juliusmwash@users.noreply.github.com>
+Date:   Sat Jan 14 05:19:51 2023 +0300
+
+    Update main.h
+
+[33mcommit c6ac0b4417f7c24aac4662da1e79c08a6d3134b4[m
+Author: Juliusmwash <118174651+Juliusmwash@users.noreply.github.com>
+Date:   Sat Jan 14 05:18:13 2023 +0300
+
+    Update main.h
+
+[33mcommit 10f240481223cfba080b1d4b7621ea566b48d6e5[m
+Author: Juliusmwash <118174651+Juliusmwash@users.noreply.github.com>
+Date:   Sat Jan 14 05:16:35 2023 +0300
+
+    Create 2-calloc.c
+
+[33mcommit 1e392ab164288b5da3ee2070402d991049e0a92a[m
+Author: Juliusmwash <118174651+Juliusmwash@users.noreply.github.com>
+Date:   Sat Jan 14 05:14:20 2023 +0300
+
+    Create 3-array_range.c
+
+[33mcommit 44ba76aa509a1caadbc0adcbbb82ede15dbd1c4f[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Sat Jan 14 05:12:08 2023 +0300
+
+    Make main.h
+
+[33mcommit 7255d1a9a6b4353aaa31f89dc8ae27de3ff11701[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Sat Jan 14 05:08:26 2023 +0300
+
+    Make main.h
+
+[33mcommit 619ba33b47f6052a3094394728cbcc14412f5498[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Sat Jan 14 05:07:48 2023 +0300
+
+    Correct 1-string_nconcat.c errors (2)
+
+[33mcommit b6ea746a86f657136e2fc4cf7748129b403ae8d8[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Sat Jan 14 03:51:55 2023 +0300
+
+    Correct 1-string_nconcat.c errors (3);
+
+[33mcommit d152db94f4709d36555158d9ec35cccda11d5b15[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Sat Jan 14 03:12:04 2023 +0300
+
+    Correct 1-string_nconcat.c errors (1)
+
+[33mcommit 7019e6d7dfbd27a6a3cd8905f723bcb0d229890d[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Sat Jan 14 03:06:04 2023 +0300
+
+    Add prototype to main.h
+
+[33mcommit 7d5a42ce848549e6d410195d6cda38ec10800ba4[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Sat Jan 14 03:03:10 2023 +0300
+
+    Make 1-string_nconcat.c
+
+[33mcommit fb8849d58b7b5dbd0421e2c905b784d5c84317da[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Sat Jan 14 01:49:41 2023 +0300
+
+    Make 0-malloc_checked.c
+
+[33mcommit 8795f283dd7846af7e6670efa0b4b62582cfea85[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Sat Jan 14 01:40:40 2023 +0300
+
+    Start project
+
+[33mcommit 8daca924bca73a14d76c9a6393e225cff36590fa[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Jan 13 13:23:02 2023 +0300
+
+    Correct 4-free_grid.c errors (1)
+
+[33mcommit 82d6125f446df9239e2c245080fa342d7ca42da9[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Jan 13 13:21:27 2023 +0300
+
+    Make 4-free_grid.c
+
+[33mcommit dc3d6746225999d495acd8faae3012bcc3a994e8[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Jan 13 13:06:53 2023 +0300
+
+    Try 3-alloc_grid.c method 2
+
+[33mcommit 93820d241fae111ce6e5bf808c2f4878edc0b726[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Jan 13 13:03:25 2023 +0300
+
+    Correct 3-alloc_grid.c
+    errors (9)
+
+[33mcommit b2116bfdd6d8e35ef5471f32ab5a6a49e4c6d557[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Jan 13 12:59:12 2023 +0300
+
+    Correct 3-alloc_grid.c errors (8)
+
+[33mcommit 992f460c75253ad8e022f34c2d6b1f5548b72ef6[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Jan 13 12:55:19 2023 +0300
+
+    Correct 3-alloc_grid.c errors (7);
+
+[33mcommit 5ca014b22f8744bb21bb1dd035aa0cd964c323b2[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Jan 13 01:51:04 2023 +0300
+
+    Correct 3-alloc_grid.c errors (7)
+
+[33mcommit af4842102a9666fd9fbaaf2a5075f1d599ada1b7[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Jan 13 01:36:36 2023 +0300
+
+    Correct 3-alloc_grid.c errors (7)
+
+[33mcommit a10909021e2ab5de988742b904d9b90f1bdd5e53[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Jan 13 01:31:29 2023 +0300
+
+    Correct 3-alloc_grid.c errors (6)
+
+[33mcommit b12784082dc069152007ab325a057da3fd4a3924[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Jan 13 01:28:57 2023 +0300
+
+    Correct 3-alloc_grid.c errors (5)
+
+[33mcommit bc85ddf539b9574b8aae82713e13ba40176f632b[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Jan 13 01:17:29 2023 +0300
+
+    Correct 3-alloc_grid.c errors (4);
+
+[33mcommit cf85d845b05a4c8c6dd9ea9cd4679df6b168a99f[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Jan 13 00:58:37 2023 +0300
+
+    Correct 3-alloc_grid.c errors (3)
+
+[33mcommit af8c76b199398e46ee558eb5acd0f97f79f56867[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Jan 13 00:44:58 2023 +0300
+
+    Correct 3-alloc_grid.c errors (2)
+
+[33mcommit 00c550834c2a76eb93a3fe49700390dc76ee51f3[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Jan 13 00:43:07 2023 +0300
+
+    Correct 3-alloc_grid.c error (1)
+
+[33mcommit 6db1eb058a382032fc27a65e9c361ad00c8fd4d4[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Fri Jan 13 00:39:08 2023 +0300
+
+    Make 3-alloc_grid.c
+
+[33mcommit 1a414ac9dac9fb3f1c7ff165a407b10229707d45[m
+Author: Juliusmwash <118174651+Juliusmwash@users.noreply.github.com>
+Date:   Thu Jan 12 05:20:45 2023 +0300
+
+    Create 101-strtow.c
+
+[33mcommit 75acb296f37eb6350b8ab6939a1d44553387fcca[m
+Author: Juliusmwash <118174651+Juliusmwash@users.noreply.github.com>
+Date:   Thu Jan 12 05:19:33 2023 +0300
+
+    Create 100-argstostr.c
+
+[33mcommit a154bc06e666d0ac80fee9a8fb49f76bf19639ef[m
+Author: Juliusmwash <118174651+Juliusmwash@users.noreply.github.com>
+Date:   Thu Jan 12 05:18:12 2023 +0300
+
+    Create 4-free_grid.c
+
+[33mcommit 85a344c1990edb94dd03f9f3f92a7a349282d950[m
+Author: Juliusmwash <118174651+Juliusmwash@users.noreply.github.com>
+Date:   Thu Jan 12 05:16:00 2023 +0300
+
+    Create 3-alloc_grid.c
+
+[33mcommit e835d1311f169758f842c1d5ecdfcd7f6e0e0175[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Thu Jan 12 05:13:20 2023 +0300
+
+    Make main.h
+
+[33mcommit befb6d6be0bfd3c4e160357309067ad58182ebfc[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Thu Jan 12 05:07:30 2023 +0300
+
+    Correct 2-str_concat.c errors (3)
+
+[33mcommit efc7e40f90ac72e4b2acc6de6c45580ce6240c3e[m
+Author: Juliusmwash <118174651+Juliusmwash@users.noreply.github.com>
+Date:   Thu Jan 12 03:53:37 2023 +0300
+
+    Update 2-str_concat.c
+
+[33mcommit 45f750b01268903f7f7a4614e76a5283834722b8[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Thu Jan 12 03:45:36 2023 +0300
+
+    Correct 2-str_concat.c errors (4)
+
+[33mcommit c0696b63d889f96005186db3bb6123935867449a[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Thu Jan 12 03:43:07 2023 +0300
+
+    Correct 2-str_concat.c errors (3)
+
+[33mcommit 574be5c70749c4f9d12a7f7933f7f6af773e24ba[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Thu Jan 12 03:41:14 2023 +0300
+
+    Correct 2-str_concat.c errors (2)
+
+[33mcommit 319bbf1afb559d3f95e5927318d149a22ffe64c1[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Thu Jan 12 03:38:00 2023 +0300
+
+    Correct 2-str_concat.c errors (1)
+
+[33mcommit 95e13836f5950c3d7ba963d10949261f779cf053[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Thu Jan 12 03:24:28 2023 +0300
+
+    Make 2-str_concat.c
+
+[33mcommit 2f0a8beac88e9e0622683db2daadb393ea8da172[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Thu Jan 12 03:23:20 2023 +0300
+
+    2-str_concat.c
+
+[33mcommit 6c3ee658fe6b7da312ac0799e98edd2ca29206d6[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Thu Jan 12 03:22:15 2023 +0300
+
+    Make main.h
+
+[33mcommit d972841663b8f12d17a195572a8842d97c6a1d7a[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Thu Jan 12 01:27:55 2023 +0300
+
+    Correct 1-strdup.c error (1)
+
+[33mcommit 37120c2a18fb71f2ca4382045c01009c7e61f375[m
+Author: Julius Mwangi <cutejuliusmwash@gmail.com>
+Date:   Thu Jan 12 01:25:02 2023 +0300
+
+    Make main.h
