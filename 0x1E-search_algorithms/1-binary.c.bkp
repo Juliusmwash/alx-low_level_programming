@@ -1,0 +1,44 @@
+#include "search_algos.h"
+
+int binary_search_helper(int left, size_t rt, int value, int *array)
+{
+	int mid, right;
+
+	right = (int) rt;
+
+	while (left <= right)
+	{
+		mid = left + (right - left) / 2;
+		printf("left %d, mid %d, right %d\n", left, mid, right);
+		printf("mid = %d\n", mid);
+		if (array[mid] == value)
+			return (mid);
+		if (array[mid] < value)
+			left = mid + 1;
+		else
+			right = mid - 1;
+
+		printf("left after %d, right after %d\n\n", left, right);
+	}
+	return (-1);
+}
+int binary_search(int *array, size_t size, int value)
+{
+	int index;
+
+	index = binary_search_helper(0, size, value, array);
+	if (index >= 0)
+		printf("value = [%d]\n", array[index]);
+	else
+		printf("value %d not found\n", value);
+
+	return (0);
+}
+
+int main()
+{
+	int array[] = {2, 5, 8, 12, 16, 23, 38, 56, 72, 91};
+	size_t size = sizeof(array) / sizeof(int) - 1;
+	binary_search(array, size, 28);
+	return (0);
+}
