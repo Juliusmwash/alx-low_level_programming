@@ -6,11 +6,13 @@ int jumpSearch(int arr[], int n, int target) {
     int prev = 0;
 
     // Finding the block where the target may reside
-    while (arr[step - 1] < target) {
+    while (arr[(int)fmin(step, n) - 1] < target) {
         prev = step;
         step += sqrt(n);
+		printf("prev = %d\n", prev);
         if (prev >= n) {
-            return -1;
+			printf("breaking\n");
+            break;
         }
     }
 
@@ -18,7 +20,7 @@ int jumpSearch(int arr[], int n, int target) {
     while (arr[prev] < target) {
         prev++;
         if (prev == fmin(step, n)) {
-            return -1;
+            break;
         }
     }
 
@@ -31,7 +33,7 @@ int jumpSearch(int arr[], int n, int target) {
 }
 
 int main() {
-    int arr[] = { 1, 3, 5, 7, 9, 11, 13, 15, 17, 19 };
+    int arr[] = {1, 3, 5, 7, 9, 11, 13, 15, 17, 19};
     int n = sizeof(arr) / sizeof(arr[0]);
     int target = 19;
 
