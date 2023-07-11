@@ -23,7 +23,7 @@ int binary_search_helper(int left, size_t rt, int value, int *array)
 			if (i == left)
 				printf("%d", array[i]);
 			else
-				printf(",%d", array[i]);
+				printf(", %d", array[i]);
 		}
 		putchar(10);
 
